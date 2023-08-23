@@ -1,16 +1,13 @@
 <script>
-  import {scaleOrdinal, scaleLinear, scaleBand, scaleTime } from 'd3-scale'
+  import {scaleOrdinal, scaleLinear, scaleBand, scaleTime,scaleThreshold } from 'd3-scale'
   import {timeseries} from './timeseries_data.js'
   import {april2022} from './april2022_data.js'
   import {countries_english} from './countries_english_data.js'
-  import { schemePaired } from 'd3-scale-chromatic'
+  import { schemePaired,schemeBlues } from 'd3-scale-chromatic'
   import { hoods } from './hoods.js'
   import { Eu } from './Eu.js'
   import { Graphic, PolygonLayer, fitScales,Section,createZoomHandler,createPanHandler, RectangleLayer, PointLayer, Line, XAxis, YAxis } from '@snlab/florence'
   import DataContainer from '@snlab/florence-datacontainer'
-  import Histogram from './Histogram.svelte';
-  import { Button, Dropdown, DropdownItem } from 'flowbite-svelte'
-  import { Icon } from 'flowbite-svelte-icons'
 
   // constants
   let selectedIndex = null
@@ -69,10 +66,10 @@
   // 1. position
   const myGeoScale = fitScales(neighbourhoods.domain('$geometry'))
 
-  const myColorScale = scaleOrdinal()
-    .domain(neighbourhoods.domain('$key'))
-    .range(schemePaired)
-    console.log(myColorScale)
+  // const myColorScale = scaleOrdinal()
+  //   .domain(neighbourhoods.domain('$key'))
+  //   .range(schemePaired)
+  //   console.log(myColorScale)
 
    $: speed_distribution = data_selectedQuarter
     .bin({ 
@@ -81,7 +78,7 @@
       numClasses: 10, // numClasses: binRanges.length - 1
     })
     .summarise({ total_count: { id: 'count' } 
-                                })
+})
 
 
   // BARS AND COLORS
@@ -113,6 +110,28 @@
     }  
 console.log(neighbourhoods)
 let neighbourhoodsWithoutNA = timeseries_data.dropNA('avg_u')
+
+ let classBins
+  $: classBins = neighbourhoodsWithoutNA
+    .bin({ column: 'avg_u', method:  'CKMeans', numClasses: 4 })
+    .column('bins')
+
+  $: classThresholds = binsToThreshold(classBins)
+  
+  $: myColorScale = scaleThreshold()
+    .domain(classThresholds)
+    .range(schemeBlues[4])
+
+  function binsToThreshold (bins) {
+    const thresholds = []
+    for (let index = 1; index < bins.length; index++) {
+      const bin = bins[index]
+      thresholds.push(bin[0])
+    }
+    return thresholds
+  }
+ 
+
   // mouse over behavior
   let activehood = undefined
   $: activePrice = neighbourhoodsWithoutNA.row({key: activehood})['avg_u']
@@ -222,8 +241,8 @@ let neighbourhoodsWithoutNA = timeseries_data.dropNA('avg_u')
         geometry={neighbourhoods.column('$geometry')}
         stroke={'lightgray'}
         strokeWidth={0.5}
-        fill={neighbourhoods.map('$key', myColorScale)}
-         keys={neighbourhoodsWithoutNA.column('avg_u')}
+        fill={neighbourhoodsWithoutNA.map('avg_u', myColorScale)}
+        keys={neighbourhoodsWithoutNA.column('avg_u')}
         onMouseover={handleMouseover}
       />
       </Section>
