@@ -132,7 +132,7 @@
             bind:group={selectedSpeedtype}
             value={quarter}
           />
-          {quarter}
+          {quarter === 'avg_d'?'Average Download Speed':'Average Upload speed'}
         </label>
       {/each}
   </div>
@@ -205,23 +205,6 @@
 
                />
       </Section>
-        <Section
-        x1={0.1}
-        x2={0.9}
-        y1={0.35}
-        y2={0.31}
-       scaleX={scaleLinear().domain([0,200])}
-        scaleY={scaleLinear().domain([0, 1])} 
-        flipY
-      >
-       <RectangleLayer 
-        x1={speed_distribution.map('bins', bin => bin[0])}
-        x2={speed_distribution.map('bins', bin => bin[1])}
-        y1={speed_distribution.map('total_count', x => 0)}
-        y2={speed_distribution.column('total_count')}
-        fill={fillRectangles}
-        />
-         </Section>
       <Section  
        x1={0}
         x2={1}
