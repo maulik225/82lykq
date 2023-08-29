@@ -182,7 +182,7 @@
           onMouseout = {() => selectedIndex = null}
           fill={fillRectangles}
           fillOpacity= {fillOpacityRectangles}/>
-        <XAxis title={"Download speed in " + formattedDate + " [Mbps]"}
+        <XAxis title={(selectedSpeedtype==='avg_d'?"Download speed in ":"Upload speed in ") + formattedDate + " [Mbps]"}
         tickCount={20} 
                titleFont={'Noto Sans'}
                titleFontSize={14}
