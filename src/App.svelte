@@ -91,7 +91,7 @@
   // TEXT DESCRIPTION: i want to show which countries are in which 'bin' in the text below the graph
   $: {
       if(selectedIndex != null){
-      selectedCountries = data_selectedQuarter.filter(row => row.avg_d >= speed_distribution.data().bins[selectedIndex][0] && row.avg_u <= speed_distribution.data().bins[selectedIndex][1]);
+      selectedCountries = data_selectedQuarter.filter(row => row.avg_d >= speed_distribution.data().bins[selectedIndex][0] && row.avg_d <= speed_distribution.data().bins[selectedIndex][1]);
      // textXPos = selectedIndex * 40 + 100;
      // textYPos = 450 - selectedCountries.column('name').length * 45;
       } else {
@@ -122,7 +122,7 @@
     <label  for="quarter-select"
             style="color:#000000; font-size: 20px; font-family: 'Noto Sans'; font-weight: 600;"
             >
-            Choose a quarter of a year to see internet upload speed:
+            Choose a quarter of a year to see internet speed:
     </label>
                  
     <select style="color: #0058FF; font-size: 20px; font-family: 'Noto Sans'; font-weight: 600;" 
@@ -161,7 +161,7 @@
           onMouseout = {() => selectedIndex = null}
           fill={fillRectangles}
           fillOpacity= {fillOpacityRectangles}/>
-        <XAxis title={"Upload speed in " + formattedDate + " [Mbps]"}
+        <XAxis title={"Download speed in " + formattedDate + " [Mbps]"}
         tickCount={20} 
                titleFont={'Noto Sans'}
                titleFontSize={14}
