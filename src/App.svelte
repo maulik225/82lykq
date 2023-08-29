@@ -64,7 +64,7 @@
 
  $: speed_distribution = data_selectedQuarter
     .bin({ 
-      column: 'avg_u', 
+      column: 'avg_d', 
       method: 'Manual', // method: customBinning,
       manualClasses: [0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200] , // numClasses: binRanges.length - 1
     })
@@ -91,7 +91,7 @@
   // TEXT DESCRIPTION: i want to show which countries are in which 'bin' in the text below the graph
   $: {
       if(selectedIndex != null){
-      selectedCountries = data_selectedQuarter.filter(row => row.avg_u >= speed_distribution.data().bins[selectedIndex][0] && row.avg_u <= speed_distribution.data().bins[selectedIndex][1]);
+      selectedCountries = data_selectedQuarter.filter(row => row.avg_d >= speed_distribution.data().bins[selectedIndex][0] && row.avg_u <= speed_distribution.data().bins[selectedIndex][1]);
      // textXPos = selectedIndex * 40 + 100;
      // textYPos = 450 - selectedCountries.column('name').length * 45;
       } else {
@@ -115,6 +115,7 @@
   }
  
 </script>
+
 
 <!-- SELECTION MENU -->
 <div class= "menu" >
@@ -205,7 +206,7 @@
         geometry={neighbourhoods.column('$geometry')}
         stroke={'lightgray'}
         strokeWidth={0.5}
-        fill={timeseries_data.map('avg_u', myColorScale)}
+        fill={timeseries_data.map('avg_d', myColorScale)}
       />
       </Section>
     </Graphic>
