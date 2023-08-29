@@ -123,10 +123,9 @@
             style="color:#000000; font-size: 20px; font-family: 'Noto Sans'; font-weight: 600;"
             >
            Types of internet speed:
-    </label>
-                 
-              {#each speedTypes as quarter}
-          <label>         
+    </label>           
+      {#each speedTypes as quarter}
+        <label>         
           <input
             type="radio"
             name="radioGroup"
@@ -134,8 +133,8 @@
             value={quarter}
           />
           {quarter}
-         </label>
-               {/each}
+        </label>
+      {/each}
   </div>
 <!-- SELECTION MENU -->
 <div class= "menu" >
@@ -206,6 +205,7 @@
 
                />
       </Section>
+        
       <Section  
        x1={0}
         x2={1}
@@ -231,6 +231,7 @@
         fill={timeseries_data.map(selectedSpeedtype, myColorScale)}
       />
       </Section>
+      
     </Graphic>
   </div>
 </div>
