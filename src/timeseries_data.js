@@ -2,7 +2,7 @@ export const timeseries = [
   {
     id: 'AL',
     quarter: '2019-01-01',
-    avg_d: '15.3',
+    avg_d: 15.3,
     avg_u: 7.33,
     avg_l: 27.72,
     name: 'Shqipëria',
@@ -10,7 +10,7 @@ export const timeseries = [
   {
     id: 'AL',
     quarter: '2019-04-01',
-    avg_d: '16.83',
+    avg_d: 16.83,
     avg_u: 8.09,
     avg_l: 27.36,
     name: 'Shqipëria',
@@ -18,7 +18,7 @@ export const timeseries = [
   {
     id: 'AL',
     quarter: '2019-07-01',
-    avg_d: '17.3',
+    avg_d: 17.3,
     avg_u: 8.43,
     avg_l: 26.74,
     name: 'Shqipëria',
@@ -26,7 +26,7 @@ export const timeseries = [
   {
     id: 'AL',
     quarter: '2019-10-01',
-    avg_d: '18.93',
+    avg_d: 18.93,
     avg_u: 9.39,
     avg_l: 22.91,
     name: 'Shqipëria',
@@ -34,7 +34,7 @@ export const timeseries = [
   {
     id: 'AL',
     quarter: '2020-01-01',
-    avg_d: '19.42',
+    avg_d: 19.42,
     avg_u: 10.1,
     avg_l: 22.74,
     name: 'Shqipëria',
@@ -42,7 +42,7 @@ export const timeseries = [
   {
     id: 'AL',
     quarter: '2020-04-01',
-    avg_d: '20.2',
+    avg_d: 20.2,
     avg_u: 10.44,
     avg_l: 21.12,
     name: 'Shqipëria',
@@ -50,7 +50,7 @@ export const timeseries = [
   {
     id: 'AL',
     quarter: '2020-07-01',
-    avg_d: '22.52',
+    avg_d: 22.52,
     avg_u: 11.94,
     avg_l: 17.24,
     name: 'Shqipëria',
@@ -58,7 +58,7 @@ export const timeseries = [
   {
     id: 'AL',
     quarter: '2020-10-01',
-    avg_d: '25.66',
+    avg_d: 25.66,
     avg_u: 12.56,
     avg_l: 17.83,
     name: 'Shqipëria',
@@ -66,7 +66,7 @@ export const timeseries = [
   {
     id: 'AL',
     quarter: '2021-01-01',
-    avg_d: '29.04',
+    avg_d: 29.04,
     avg_u: 14,
     avg_l: 17.02,
     name: 'Shqipëria',
@@ -74,7 +74,7 @@ export const timeseries = [
   {
     id: 'AL',
     quarter: '2021-04-01',
-    avg_d: '33.68',
+    avg_d: 33.68,
     avg_u: 15.19,
     avg_l: 15.35,
     name: 'Shqipëria',
@@ -82,7 +82,7 @@ export const timeseries = [
   {
     id: 'AL',
     quarter: '2021-07-01',
-    avg_d: '33.44',
+    avg_d: 33.44,
     avg_u: 15.17,
     avg_l: 15.7,
     name: 'Shqipëria',
@@ -90,7 +90,7 @@ export const timeseries = [
   {
     id: 'AL',
     quarter: '2021-10-01',
-    avg_d: '38.02',
+    avg_d: 38.02,
     avg_u: 15.9,
     avg_l: 15.28,
     name: 'Shqipëria',
@@ -98,7 +98,7 @@ export const timeseries = [
   {
     id: 'AL',
     quarter: '2022-01-01',
-    avg_d: '42.07',
+    avg_d: 42.07,
     avg_u: 18.59,
     avg_l: 14.37,
     name: 'Shqipëria',
@@ -106,7 +106,7 @@ export const timeseries = [
   {
     id: 'AL',
     quarter: '2022-04-01',
-    avg_d: '43.61',
+    avg_d: 43.61,
     avg_u: 20.73,
     avg_l: 11.7,
     name: 'Shqipëria',
@@ -114,7 +114,7 @@ export const timeseries = [
   {
     id: 'AT',
     quarter: '2019-01-01',
-    avg_d: '34.15',
+    avg_d: 34.15,
     avg_u: 10.89,
     avg_l: 30.95,
     name: 'Österreich',
@@ -122,7 +122,7 @@ export const timeseries = [
   {
     id: 'AT',
     quarter: '2019-04-01',
-    avg_d: '39.74',
+    avg_d: 39.74,
     avg_u: 11.92,
     avg_l: 27.46,
     name: 'Österreich',
@@ -130,7 +130,7 @@ export const timeseries = [
   {
     id: 'AT',
     quarter: '2019-07-01',
-    avg_d: '37.79',
+    avg_d: 37.79,
     avg_u: 12.22,
     avg_l: 22.43,
     name: 'Österreich',
@@ -138,7 +138,7 @@ export const timeseries = [
   {
     id: 'AT',
     quarter: '2019-10-01',
-    avg_d: '45.19',
+    avg_d: 45.19,
     avg_u: 13.15,
     avg_l: 19.84,
     name: 'Österreich',
@@ -146,7 +146,7 @@ export const timeseries = [
   {
     id: 'AT',
     quarter: '2020-01-01',
-    avg_d: '46.03',
+    avg_d: 46.03,
     avg_u: 13,
     avg_l: 18.65,
     name: 'Österreich',
@@ -154,7 +154,7 @@ export const timeseries = [
   {
     id: 'AT',
     quarter: '2020-04-01',
-    avg_d: '50.54',
+    avg_d: 50.54,
     avg_u: 13.52,
     avg_l: 18.08,
     name: 'Österreich',
@@ -162,7 +162,7 @@ export const timeseries = [
   {
     id: 'AT',
     quarter: '2020-07-01',
-    avg_d: '53.97',
+    avg_d: 53.97,
     avg_u: 14.66,
     avg_l: 17.95,
     name: 'Österreich',
@@ -170,7 +170,7 @@ export const timeseries = [
   {
     id: 'AT',
     quarter: '2020-10-01',
-    avg_d: '59.1',
+    avg_d: 59.1,
     avg_u: 16.04,
     avg_l: 17.17,
     name: 'Österreich',
@@ -178,7 +178,7 @@ export const timeseries = [
   {
     id: 'AT',
     quarter: '2021-01-01',
-    avg_d: '63.64',
+    avg_d: 63.64,
     avg_u: 17.02,
     avg_l: 16.03,
     name: 'Österreich',
@@ -186,7 +186,7 @@ export const timeseries = [
   {
     id: 'AT',
     quarter: '2021-04-01',
-    avg_d: 'NA',
+    avg_d: 66.73,
     avg_u: 17.65,
     avg_l: 15.6,
     name: 'Österreich',
@@ -194,7 +194,7 @@ export const timeseries = [
   {
     id: 'AT',
     quarter: '2021-07-01',
-    avg_d: '69.83',
+    avg_d: 69.83,
     avg_u: 18.39,
     avg_l: 16.59,
     name: 'Österreich',
@@ -202,7 +202,7 @@ export const timeseries = [
   {
     id: 'AT',
     quarter: '2021-10-01',
-    avg_d: '75.47',
+    avg_d: 75.47,
     avg_u: 19.85,
     avg_l: 16.33,
     name: 'Österreich',
@@ -210,7 +210,7 @@ export const timeseries = [
   {
     id: 'AT',
     quarter: '2022-01-01',
-    avg_d: '80',
+    avg_d: 80,
     avg_u: 20.91,
     avg_l: 16.4,
     name: 'Österreich',
@@ -218,7 +218,7 @@ export const timeseries = [
   {
     id: 'AT',
     quarter: '2022-04-01',
-    avg_d: '81.96',
+    avg_d: 81.96,
     avg_u: 21.96,
     avg_l: 15.91,
     name: 'Österreich',
@@ -226,7 +226,7 @@ export const timeseries = [
   {
     id: 'BE',
     quarter: '2019-01-01',
-    avg_d: '62.19',
+    avg_d: 62.19,
     avg_u: 13.86,
     avg_l: 17.87,
     name: 'Belgique/België',
@@ -234,7 +234,7 @@ export const timeseries = [
   {
     id: 'BE',
     quarter: '2019-04-01',
-    avg_d: '64.68',
+    avg_d: 64.68,
     avg_u: 13.9,
     avg_l: 17.93,
     name: 'Belgique/België',
@@ -242,7 +242,7 @@ export const timeseries = [
   {
     id: 'BE',
     quarter: '2019-07-01',
-    avg_d: '68.24',
+    avg_d: 68.24,
     avg_u: 14.52,
     avg_l: 16.84,
     name: 'Belgique/België',
@@ -250,7 +250,7 @@ export const timeseries = [
   {
     id: 'BE',
     quarter: '2019-10-01',
-    avg_d: '78.54',
+    avg_d: 78.54,
     avg_u: 15.45,
     avg_l: 15.2,
     name: 'Belgique/België',
@@ -258,7 +258,7 @@ export const timeseries = [
   {
     id: 'BE',
     quarter: '2020-01-01',
-    avg_d: '76.78',
+    avg_d: 76.78,
     avg_u: 14.89,
     avg_l: 15.23,
     name: 'Belgique/België',
@@ -266,7 +266,7 @@ export const timeseries = [
   {
     id: 'BE',
     quarter: '2020-04-01',
-    avg_d: '81.85',
+    avg_d: 81.85,
     avg_u: 16.55,
     avg_l: 15.02,
     name: 'Belgique/België',
@@ -274,7 +274,7 @@ export const timeseries = [
   {
     id: 'BE',
     quarter: '2020-07-01',
-    avg_d: '83.71',
+    avg_d: 83.71,
     avg_u: 16.73,
     avg_l: 15.36,
     name: 'Belgique/België',
@@ -282,7 +282,7 @@ export const timeseries = [
   {
     id: 'BE',
     quarter: '2020-10-01',
-    avg_d: '90.46',
+    avg_d: 90.46,
     avg_u: 16.97,
     avg_l: 14.48,
     name: 'Belgique/België',
@@ -290,7 +290,7 @@ export const timeseries = [
   {
     id: 'BE',
     quarter: '2021-01-01',
-    avg_d: '95.76',
+    avg_d: 95.76,
     avg_u: 17.41,
     avg_l: 14.11,
     name: 'Belgique/België',
@@ -298,7 +298,7 @@ export const timeseries = [
   {
     id: 'BE',
     quarter: '2021-04-01',
-    avg_d: '109.9',
+    avg_d: 109.9,
     avg_u: 18.4,
     avg_l: 13.82,
     name: 'Belgique/België',
@@ -306,7 +306,7 @@ export const timeseries = [
   {
     id: 'BE',
     quarter: '2021-07-01',
-    avg_d: '112.06',
+    avg_d: 112.06,
     avg_u: 18.93,
     avg_l: 14.47,
     name: 'Belgique/België',
@@ -314,7 +314,7 @@ export const timeseries = [
   {
     id: 'BE',
     quarter: '2021-10-01',
-    avg_d: '117.68',
+    avg_d: 117.68,
     avg_u: 19.49,
     avg_l: 14.66,
     name: 'Belgique/België',
@@ -322,7 +322,7 @@ export const timeseries = [
   {
     id: 'BE',
     quarter: '2022-01-01',
-    avg_d: '120.36',
+    avg_d: 120.36,
     avg_u: 20.94,
     avg_l: 14.34,
     name: 'Belgique/België',
@@ -330,7 +330,7 @@ export const timeseries = [
   {
     id: 'BE',
     quarter: '2022-04-01',
-    avg_d: '120.05',
+    avg_d: 120.05,
     avg_u: 23.77,
     avg_l: 14.43,
     name: 'Belgique/België',
@@ -338,7 +338,7 @@ export const timeseries = [
   {
     id: 'BG',
     quarter: '2019-01-01',
-    avg_d: '40.68',
+    avg_d: 40.68,
     avg_u: 30.56,
     avg_l: 12.43,
     name: 'Bulgaria',
@@ -346,7 +346,7 @@ export const timeseries = [
   {
     id: 'BG',
     quarter: '2019-04-01',
-    avg_d: '39.2',
+    avg_d: 39.2,
     avg_u: 29.57,
     avg_l: 14.71,
     name: 'Bulgaria',
@@ -354,7 +354,7 @@ export const timeseries = [
   {
     id: 'BG',
     quarter: '2019-07-01',
-    avg_d: '37.5',
+    avg_d: 37.5,
     avg_u: 29.2,
     avg_l: 14.08,
     name: 'Bulgaria',
@@ -362,7 +362,7 @@ export const timeseries = [
   {
     id: 'BG',
     quarter: '2019-10-01',
-    avg_d: '41.02',
+    avg_d: 41.02,
     avg_u: 33.44,
     avg_l: 11.06,
     name: 'Bulgaria',
@@ -370,7 +370,7 @@ export const timeseries = [
   {
     id: 'BG',
     quarter: '2020-01-01',
-    avg_d: '41.26',
+    avg_d: 41.26,
     avg_u: 33.65,
     avg_l: 10.82,
     name: 'Bulgaria',
@@ -378,7 +378,7 @@ export const timeseries = [
   {
     id: 'BG',
     quarter: '2020-04-01',
-    avg_d: '45.85',
+    avg_d: 45.85,
     avg_u: 37.84,
     avg_l: 9.96,
     name: 'Bulgaria',
@@ -386,7 +386,7 @@ export const timeseries = [
   {
     id: 'BG',
     quarter: '2020-07-01',
-    avg_d: '43.61',
+    avg_d: 43.61,
     avg_u: 34.63,
     avg_l: 10.29,
     name: 'Bulgaria',
@@ -394,7 +394,7 @@ export const timeseries = [
   {
     id: 'BG',
     quarter: '2020-10-01',
-    avg_d: '53.42',
+    avg_d: 53.42,
     avg_u: 43.82,
     avg_l: 8.63,
     name: 'Bulgaria',
@@ -402,7 +402,7 @@ export const timeseries = [
   {
     id: 'BG',
     quarter: '2021-01-01',
-    avg_d: '59.82',
+    avg_d: 59.82,
     avg_u: 50.03,
     avg_l: 8.31,
     name: 'Bulgaria',
@@ -410,7 +410,7 @@ export const timeseries = [
   {
     id: 'BG',
     quarter: '2021-04-01',
-    avg_d: '62.7',
+    avg_d: 62.7,
     avg_u: 50.34,
     avg_l: 8.62,
     name: 'Bulgaria',
@@ -418,7 +418,7 @@ export const timeseries = [
   {
     id: 'BG',
     quarter: '2021-07-01',
-    avg_d: '62.12',
+    avg_d: 62.12,
     avg_u: 50.47,
     avg_l: 9.16,
     name: 'Bulgaria',
@@ -426,7 +426,7 @@ export const timeseries = [
   {
     id: 'BG',
     quarter: '2021-10-01',
-    avg_d: '73.41',
+    avg_d: 73.41,
     avg_u: 59.32,
     avg_l: 8.62,
     name: 'Bulgaria',
@@ -434,7 +434,7 @@ export const timeseries = [
   {
     id: 'BG',
     quarter: '2022-01-01',
-    avg_d: '78.23',
+    avg_d: 78.23,
     avg_u: 63.17,
     avg_l: 8.75,
     name: 'Bulgaria',
@@ -442,119 +442,119 @@ export const timeseries = [
   {
     id: 'BG',
     quarter: '2022-04-01',
-    avg_d: '80.32',
+    avg_d: 80.32,
     avg_u: 65.55,
     avg_l: 8.87,
     name: 'Bulgaria',
   },
   {
-    id: 'BIH',
+    id: 'BA',
     quarter: '2019-01-01',
-    avg_d: '23.47',
+    avg_d: 23.47,
     avg_u: 5.34,
     avg_l: 25.67,
     name: 'Bosnia and Herzegovina',
   },
   {
-    id: 'BIH',
+    id: 'BA',
     quarter: '2019-04-01',
-    avg_d: '25.33',
+    avg_d: 25.33,
     avg_u: 5.85,
     avg_l: 24.04,
     name: 'Bosnia and Herzegovina',
   },
   {
-    id: 'BIH',
+    id: 'BA',
     quarter: '2019-07-01',
-    avg_d: '22.27',
+    avg_d: 22.27,
     avg_u: 5.44,
     avg_l: 25.64,
     name: 'Bosnia and Herzegovina',
   },
   {
-    id: 'BIH',
+    id: 'BA',
     quarter: '2019-10-01',
-    avg_d: '26.25',
+    avg_d: 26.25,
     avg_u: 6.1,
     avg_l: 21.41,
     name: 'Bosnia and Herzegovina',
   },
   {
-    id: 'BIH',
+    id: 'BA',
     quarter: '2020-01-01',
-    avg_d: '25.08',
+    avg_d: 25.08,
     avg_u: 5.65,
     avg_l: 22.46,
     name: 'Bosnia and Herzegovina',
   },
   {
-    id: 'BIH',
+    id: 'BA',
     quarter: '2020-04-01',
-    avg_d: '27.35',
+    avg_d: 27.35,
     avg_u: 6.02,
     avg_l: 20.84,
     name: 'Bosnia and Herzegovina',
   },
   {
-    id: 'BIH',
+    id: 'BA',
     quarter: '2020-07-01',
-    avg_d: '27.43',
+    avg_d: 27.43,
     avg_u: 6.14,
     avg_l: 20.4,
     name: 'Bosnia and Herzegovina',
   },
   {
-    id: 'BIH',
+    id: 'BA',
     quarter: '2020-10-01',
-    avg_d: '31.75',
+    avg_d: 31.75,
     avg_u: 6.68,
     avg_l: 19.49,
     name: 'Bosnia and Herzegovina',
   },
   {
-    id: 'BIH',
+    id: 'BA',
     quarter: '2021-01-01',
-    avg_d: '31.54',
+    avg_d: 31.54,
     avg_u: 6.97,
     avg_l: 19.39,
     name: 'Bosnia and Herzegovina',
   },
   {
-    id: 'BIH',
+    id: 'BA',
     quarter: '2021-04-01',
-    avg_d: '34.58',
+    avg_d: 34.58,
     avg_u: 7.87,
     avg_l: 18.1,
     name: 'Bosnia and Herzegovina',
   },
   {
-    id: 'BIH',
+    id: 'BA',
     quarter: '2021-07-01',
-    avg_d: '34.17',
+    avg_d: 34.17,
     avg_u: 8.02,
     avg_l: 18.35,
     name: 'Bosnia and Herzegovina',
   },
   {
-    id: 'BIH',
+    id: 'BA',
     quarter: '2021-10-01',
-    avg_d: '35.68',
+    avg_d: 35.68,
     avg_u: 8.18,
     avg_l: 19.09,
     name: 'Bosnia and Herzegovina',
   },
   {
-    id: 'BIH',
+    id: 'BA',
     quarter: '2022-01-01',
-    avg_d: '40.84',
+    avg_d: 40.84,
     avg_u: 8.94,
     avg_l: 18.81,
     name: 'Bosnia and Herzegovina',
   },
   {
-    id: 'BIH',
+    id: 'BA',
     quarter: '2022-04-01',
-    avg_d: '43.06',
+    avg_d: 43.06,
     avg_u: 9.8,
     avg_l: 19.03,
     name: 'Bosnia and Herzegovina',
@@ -562,7 +562,7 @@ export const timeseries = [
   {
     id: 'CH',
     quarter: '2019-01-01',
-    avg_d: '88.88',
+    avg_d: 88.88,
     avg_u: 48.23,
     avg_l: 17.06,
     name: 'Schweiz/Suisse/Svizzera',
@@ -570,7 +570,7 @@ export const timeseries = [
   {
     id: 'CH',
     quarter: '2019-04-01',
-    avg_d: '90.94',
+    avg_d: 90.94,
     avg_u: 50.09,
     avg_l: 16.92,
     name: 'Schweiz/Suisse/Svizzera',
@@ -578,7 +578,7 @@ export const timeseries = [
   {
     id: 'CH',
     quarter: '2019-07-01',
-    avg_d: '94.01',
+    avg_d: 94.01,
     avg_u: 50.24,
     avg_l: 14.59,
     name: 'Schweiz/Suisse/Svizzera',
@@ -586,7 +586,7 @@ export const timeseries = [
   {
     id: 'CH',
     quarter: '2019-10-01',
-    avg_d: '111.23',
+    avg_d: 111.23,
     avg_u: 63.25,
     avg_l: 12.37,
     name: 'Schweiz/Suisse/Svizzera',
@@ -594,7 +594,7 @@ export const timeseries = [
   {
     id: 'CH',
     quarter: '2020-01-01',
-    avg_d: '114.58',
+    avg_d: 114.58,
     avg_u: 66.11,
     avg_l: 11.88,
     name: 'Schweiz/Suisse/Svizzera',
@@ -602,7 +602,7 @@ export const timeseries = [
   {
     id: 'CH',
     quarter: '2020-04-01',
-    avg_d: '124.34',
+    avg_d: 124.34,
     avg_u: 72.46,
     avg_l: 11.24,
     name: 'Schweiz/Suisse/Svizzera',
@@ -610,7 +610,7 @@ export const timeseries = [
   {
     id: 'CH',
     quarter: '2020-07-01',
-    avg_d: '124',
+    avg_d: 124,
     avg_u: 73.49,
     avg_l: 10.62,
     name: 'Schweiz/Suisse/Svizzera',
@@ -618,7 +618,7 @@ export const timeseries = [
   {
     id: 'CH',
     quarter: '2020-10-01',
-    avg_d: '141.58',
+    avg_d: 141.58,
     avg_u: 83.15,
     avg_l: 9.95,
     name: 'Schweiz/Suisse/Svizzera',
@@ -626,7 +626,7 @@ export const timeseries = [
   {
     id: 'CH',
     quarter: '2021-01-01',
-    avg_d: '153.64',
+    avg_d: 153.64,
     avg_u: 90.41,
     avg_l: 9.88,
     name: 'Schweiz/Suisse/Svizzera',
@@ -634,7 +634,7 @@ export const timeseries = [
   {
     id: 'CH',
     quarter: '2021-04-01',
-    avg_d: '172',
+    avg_d: 172,
     avg_u: 99.03,
     avg_l: 9.78,
     name: 'Schweiz/Suisse/Svizzera',
@@ -642,7 +642,7 @@ export const timeseries = [
   {
     id: 'CH',
     quarter: '2021-07-01',
-    avg_d: '174.42',
+    avg_d: 174.42,
     avg_u: 101.03,
     avg_l: 10.04,
     name: 'Schweiz/Suisse/Svizzera',
@@ -650,7 +650,7 @@ export const timeseries = [
   {
     id: 'CH',
     quarter: '2021-10-01',
-    avg_d: '189.34',
+    avg_d: 189.34,
     avg_u: 109.79,
     avg_l: 9.87,
     name: 'Schweiz/Suisse/Svizzera',
@@ -658,7 +658,7 @@ export const timeseries = [
   {
     id: 'CH',
     quarter: '2022-01-01',
-    avg_d: '196.27',
+    avg_d: 196.27,
     avg_u: 112.96,
     avg_l: 9.71,
     name: 'Schweiz/Suisse/Svizzera',
@@ -666,7 +666,7 @@ export const timeseries = [
   {
     id: 'CH',
     quarter: '2022-04-01',
-    avg_d: '202.03',
+    avg_d: 202.03,
     avg_u: 118.97,
     avg_l: 9.88,
     name: 'Schweiz/Suisse/Svizzera',
@@ -674,7 +674,7 @@ export const timeseries = [
   {
     id: 'CY',
     quarter: '2019-01-01',
-    avg_d: '17.93',
+    avg_d: 17.93,
     avg_u: 4.43,
     avg_l: 26.35,
     name: 'Kýpros',
@@ -682,7 +682,7 @@ export const timeseries = [
   {
     id: 'CY',
     quarter: '2019-04-01',
-    avg_d: '18.32',
+    avg_d: 18.32,
     avg_u: 4.7,
     avg_l: 26.23,
     name: 'Kýpros',
@@ -690,7 +690,7 @@ export const timeseries = [
   {
     id: 'CY',
     quarter: '2019-07-01',
-    avg_d: '19.15',
+    avg_d: 19.15,
     avg_u: 5.53,
     avg_l: 24.73,
     name: 'Kýpros',
@@ -698,7 +698,7 @@ export const timeseries = [
   {
     id: 'CY',
     quarter: '2019-10-01',
-    avg_d: '19.5',
+    avg_d: 19.5,
     avg_u: 5.48,
     avg_l: 24.56,
     name: 'Kýpros',
@@ -706,7 +706,7 @@ export const timeseries = [
   {
     id: 'CY',
     quarter: '2020-01-01',
-    avg_d: '21.06',
+    avg_d: 21.06,
     avg_u: 5.41,
     avg_l: 21.88,
     name: 'Kýpros',
@@ -714,7 +714,7 @@ export const timeseries = [
   {
     id: 'CY',
     quarter: '2020-04-01',
-    avg_d: '21.5',
+    avg_d: 21.5,
     avg_u: 6.14,
     avg_l: 21.35,
     name: 'Kýpros',
@@ -722,7 +722,7 @@ export const timeseries = [
   {
     id: 'CY',
     quarter: '2020-07-01',
-    avg_d: '22.95',
+    avg_d: 22.95,
     avg_u: 7.32,
     avg_l: 19.22,
     name: 'Kýpros',
@@ -730,7 +730,7 @@ export const timeseries = [
   {
     id: 'CY',
     quarter: '2020-10-01',
-    avg_d: '33.06',
+    avg_d: 33.06,
     avg_u: 11.64,
     avg_l: 17.48,
     name: 'Kýpros',
@@ -738,7 +738,7 @@ export const timeseries = [
   {
     id: 'CY',
     quarter: '2021-01-01',
-    avg_d: '33.63',
+    avg_d: 33.63,
     avg_u: 12.02,
     avg_l: 17.59,
     name: 'Kýpros',
@@ -746,7 +746,7 @@ export const timeseries = [
   {
     id: 'CY',
     quarter: '2021-04-01',
-    avg_d: '39.06',
+    avg_d: 39.06,
     avg_u: 14.18,
     avg_l: 16.97,
     name: 'Kýpros',
@@ -754,7 +754,7 @@ export const timeseries = [
   {
     id: 'CY',
     quarter: '2021-07-01',
-    avg_d: '39.64',
+    avg_d: 39.64,
     avg_u: 15.59,
     avg_l: 16.97,
     name: 'Kýpros',
@@ -762,7 +762,7 @@ export const timeseries = [
   {
     id: 'CY',
     quarter: '2021-10-01',
-    avg_d: '44.34',
+    avg_d: 44.34,
     avg_u: 16.86,
     avg_l: 16.34,
     name: 'Kýpros',
@@ -770,7 +770,7 @@ export const timeseries = [
   {
     id: 'CY',
     quarter: '2022-01-01',
-    avg_d: '49.56',
+    avg_d: 49.56,
     avg_u: 18.53,
     avg_l: 16.4,
     name: 'Kýpros',
@@ -778,7 +778,7 @@ export const timeseries = [
   {
     id: 'CY',
     quarter: '2022-04-01',
-    avg_d: '52.22',
+    avg_d: 52.22,
     avg_u: 20.35,
     avg_l: 15.28,
     name: 'Kýpros',
@@ -786,7 +786,7 @@ export const timeseries = [
   {
     id: 'CZ',
     quarter: '2019-01-01',
-    avg_d: '36.51',
+    avg_d: 36.51,
     avg_u: 17.53,
     avg_l: 21.77,
     name: 'Česko',
@@ -794,7 +794,7 @@ export const timeseries = [
   {
     id: 'CZ',
     quarter: '2019-04-01',
-    avg_d: '36.32',
+    avg_d: 36.32,
     avg_u: 17.71,
     avg_l: 21.22,
     name: 'Česko',
@@ -802,7 +802,7 @@ export const timeseries = [
   {
     id: 'CZ',
     quarter: '2019-07-01',
-    avg_d: '39.12',
+    avg_d: 39.12,
     avg_u: 19.82,
     avg_l: 18.34,
     name: 'Česko',
@@ -810,7 +810,7 @@ export const timeseries = [
   {
     id: 'CZ',
     quarter: '2019-10-01',
-    avg_d: '38.62',
+    avg_d: 38.62,
     avg_u: 20.98,
     avg_l: 17.43,
     name: 'Česko',
@@ -818,7 +818,7 @@ export const timeseries = [
   {
     id: 'CZ',
     quarter: '2020-01-01',
-    avg_d: '39.5',
+    avg_d: 39.5,
     avg_u: 21.37,
     avg_l: 17.51,
     name: 'Česko',
@@ -826,7 +826,7 @@ export const timeseries = [
   {
     id: 'CZ',
     quarter: '2020-04-01',
-    avg_d: '43.72',
+    avg_d: 43.72,
     avg_u: 22.06,
     avg_l: 17.19,
     name: 'Česko',
@@ -834,7 +834,7 @@ export const timeseries = [
   {
     id: 'CZ',
     quarter: '2020-07-01',
-    avg_d: '45.48',
+    avg_d: 45.48,
     avg_u: 22.61,
     avg_l: 16.44,
     name: 'Česko',
@@ -842,7 +842,7 @@ export const timeseries = [
   {
     id: 'CZ',
     quarter: '2020-10-01',
-    avg_d: '48.32',
+    avg_d: 48.32,
     avg_u: 23.29,
     avg_l: 17.05,
     name: 'Česko',
@@ -850,7 +850,7 @@ export const timeseries = [
   {
     id: 'CZ',
     quarter: '2021-01-01',
-    avg_d: '53.41',
+    avg_d: 53.41,
     avg_u: 26.13,
     avg_l: 16.41,
     name: 'Česko',
@@ -858,7 +858,7 @@ export const timeseries = [
   {
     id: 'CZ',
     quarter: '2021-04-01',
-    avg_d: '65.97',
+    avg_d: 65.97,
     avg_u: 27.95,
     avg_l: 15.47,
     name: 'Česko',
@@ -866,7 +866,7 @@ export const timeseries = [
   {
     id: 'CZ',
     quarter: '2021-07-01',
-    avg_d: '63.81',
+    avg_d: 63.81,
     avg_u: 29.34,
     avg_l: 15.86,
     name: 'Česko',
@@ -874,7 +874,7 @@ export const timeseries = [
   {
     id: 'CZ',
     quarter: '2021-10-01',
-    avg_d: '71.85',
+    avg_d: 71.85,
     avg_u: 33.6,
     avg_l: 15.87,
     name: 'Česko',
@@ -882,7 +882,7 @@ export const timeseries = [
   {
     id: 'CZ',
     quarter: '2022-01-01',
-    avg_d: '77.12',
+    avg_d: 77.12,
     avg_u: 36.77,
     avg_l: 15.53,
     name: 'Česko',
@@ -890,7 +890,7 @@ export const timeseries = [
   {
     id: 'CZ',
     quarter: '2022-04-01',
-    avg_d: '77.6',
+    avg_d: 77.6,
     avg_u: 39.88,
     avg_l: 15.21,
     name: 'Česko',
@@ -898,7 +898,7 @@ export const timeseries = [
   {
     id: 'DE',
     quarter: '2019-01-01',
-    avg_d: '52.51',
+    avg_d: 52.51,
     avg_u: 15.16,
     avg_l: 23.28,
     name: 'Deutschland',
@@ -906,7 +906,7 @@ export const timeseries = [
   {
     id: 'DE',
     quarter: '2019-04-01',
-    avg_d: '54.64',
+    avg_d: 54.64,
     avg_u: 16.05,
     avg_l: 24.23,
     name: 'Deutschland',
@@ -914,7 +914,7 @@ export const timeseries = [
   {
     id: 'DE',
     quarter: '2019-07-01',
-    avg_d: '61.45',
+    avg_d: 61.45,
     avg_u: 17.14,
     avg_l: 21.85,
     name: 'Deutschland',
@@ -922,7 +922,7 @@ export const timeseries = [
   {
     id: 'DE',
     quarter: '2019-10-01',
-    avg_d: '64.94',
+    avg_d: 64.94,
     avg_u: 18.56,
     avg_l: 20.86,
     name: 'Deutschland',
@@ -930,7 +930,7 @@ export const timeseries = [
   {
     id: 'DE',
     quarter: '2020-01-01',
-    avg_d: '71.9',
+    avg_d: 71.9,
     avg_u: 19.95,
     avg_l: 20,
     name: 'Deutschland',
@@ -938,7 +938,7 @@ export const timeseries = [
   {
     id: 'DE',
     quarter: '2020-04-01',
-    avg_d: '77.59',
+    avg_d: 77.59,
     avg_u: 20.89,
     avg_l: 19.08,
     name: 'Deutschland',
@@ -946,7 +946,7 @@ export const timeseries = [
   {
     id: 'DE',
     quarter: '2020-07-01',
-    avg_d: '79.19',
+    avg_d: 79.19,
     avg_u: 21.98,
     avg_l: 18.72,
     name: 'Deutschland',
@@ -954,7 +954,7 @@ export const timeseries = [
   {
     id: 'DE',
     quarter: '2020-10-01',
-    avg_d: '86.48',
+    avg_d: 86.48,
     avg_u: 23.98,
     avg_l: 18.52,
     name: 'Deutschland',
@@ -962,7 +962,7 @@ export const timeseries = [
   {
     id: 'DE',
     quarter: '2021-01-01',
-    avg_d: '91.66',
+    avg_d: 91.66,
     avg_u: 24.74,
     avg_l: 18.11,
     name: 'Deutschland',
@@ -970,7 +970,7 @@ export const timeseries = [
   {
     id: 'DE',
     quarter: '2021-04-01',
-    avg_d: '101.4',
+    avg_d: 101.4,
     avg_u: 26.52,
     avg_l: 17.31,
     name: 'Deutschland',
@@ -978,7 +978,7 @@ export const timeseries = [
   {
     id: 'DE',
     quarter: '2021-07-01',
-    avg_d: '103.2',
+    avg_d: 103.2,
     avg_u: 27.7,
     avg_l: 17.72,
     name: 'Deutschland',
@@ -986,7 +986,7 @@ export const timeseries = [
   {
     id: 'DE',
     quarter: '2021-10-01',
-    avg_d: '108.3',
+    avg_d: 108.3,
     avg_u: 28.76,
     avg_l: 17.04,
     name: 'Deutschland',
@@ -994,7 +994,7 @@ export const timeseries = [
   {
     id: 'DE',
     quarter: '2022-01-01',
-    avg_d: '118.66',
+    avg_d: 118.66,
     avg_u: 30.39,
     avg_l: 16.7,
     name: 'Deutschland',
@@ -1002,7 +1002,7 @@ export const timeseries = [
   {
     id: 'DE',
     quarter: '2022-04-01',
-    avg_d: '118.52',
+    avg_d: 118.52,
     avg_u: 31.22,
     avg_l: 16.51,
     name: 'Deutschland',
@@ -1010,7 +1010,7 @@ export const timeseries = [
   {
     id: 'DK',
     quarter: '2019-01-01',
-    avg_d: '78.26',
+    avg_d: 78.26,
     avg_u: 56.6,
     avg_l: 14.33,
     name: 'Danmark',
@@ -1018,7 +1018,7 @@ export const timeseries = [
   {
     id: 'DK',
     quarter: '2019-04-01',
-    avg_d: '75.3',
+    avg_d: 75.3,
     avg_u: 54.8,
     avg_l: 16.03,
     name: 'Danmark',
@@ -1026,7 +1026,7 @@ export const timeseries = [
   {
     id: 'DK',
     quarter: '2019-07-01',
-    avg_d: '82.18',
+    avg_d: 82.18,
     avg_u: 59.99,
     avg_l: 14.12,
     name: 'Danmark',
@@ -1034,7 +1034,7 @@ export const timeseries = [
   {
     id: 'DK',
     quarter: '2019-10-01',
-    avg_d: '95.04',
+    avg_d: 95.04,
     avg_u: 72.36,
     avg_l: 11.43,
     name: 'Danmark',
@@ -1042,7 +1042,7 @@ export const timeseries = [
   {
     id: 'DK',
     quarter: '2020-01-01',
-    avg_d: '104.74',
+    avg_d: 104.74,
     avg_u: 80.92,
     avg_l: 11,
     name: 'Danmark',
@@ -1050,7 +1050,7 @@ export const timeseries = [
   {
     id: 'DK',
     quarter: '2020-04-01',
-    avg_d: '109.84',
+    avg_d: 109.84,
     avg_u: 86.36,
     avg_l: 10.92,
     name: 'Danmark',
@@ -1058,7 +1058,7 @@ export const timeseries = [
   {
     id: 'DK',
     quarter: '2020-07-01',
-    avg_d: '113.19',
+    avg_d: 113.19,
     avg_u: 85.97,
     avg_l: 11.32,
     name: 'Danmark',
@@ -1066,7 +1066,7 @@ export const timeseries = [
   {
     id: 'DK',
     quarter: '2020-10-01',
-    avg_d: '138.39',
+    avg_d: 138.39,
     avg_u: 104.16,
     avg_l: 10.87,
     name: 'Danmark',
@@ -1074,7 +1074,7 @@ export const timeseries = [
   {
     id: 'DK',
     quarter: '2021-01-01',
-    avg_d: '151.62',
+    avg_d: 151.62,
     avg_u: 112.39,
     avg_l: 10.47,
     name: 'Danmark',
@@ -1082,7 +1082,7 @@ export const timeseries = [
   {
     id: 'DK',
     quarter: '2021-04-01',
-    avg_d: '167.42',
+    avg_d: 167.42,
     avg_u: 115.63,
     avg_l: 10.46,
     name: 'Danmark',
@@ -1090,7 +1090,7 @@ export const timeseries = [
   {
     id: 'DK',
     quarter: '2021-07-01',
-    avg_d: '167.82',
+    avg_d: 167.82,
     avg_u: 117.32,
     avg_l: 10.37,
     name: 'Danmark',
@@ -1098,7 +1098,7 @@ export const timeseries = [
   {
     id: 'DK',
     quarter: '2021-10-01',
-    avg_d: '181.43',
+    avg_d: 181.43,
     avg_u: 126.47,
     avg_l: 9.99,
     name: 'Danmark',
@@ -1106,7 +1106,7 @@ export const timeseries = [
   {
     id: 'DK',
     quarter: '2022-01-01',
-    avg_d: '189.55',
+    avg_d: 189.55,
     avg_u: 134.98,
     avg_l: 9.89,
     name: 'Danmark',
@@ -1114,7 +1114,7 @@ export const timeseries = [
   {
     id: 'DK',
     quarter: '2022-04-01',
-    avg_d: '185.96',
+    avg_d: 185.96,
     avg_u: 133.6,
     avg_l: 10.06,
     name: 'Danmark',
@@ -1122,7 +1122,7 @@ export const timeseries = [
   {
     id: 'EE',
     quarter: '2019-01-01',
-    avg_d: '45.82',
+    avg_d: 45.82,
     avg_u: 31.7,
     avg_l: 22.06,
     name: 'Eesti',
@@ -1130,7 +1130,7 @@ export const timeseries = [
   {
     id: 'EE',
     quarter: '2019-04-01',
-    avg_d: '45.46',
+    avg_d: 45.46,
     avg_u: 30.21,
     avg_l: 20.51,
     name: 'Eesti',
@@ -1138,7 +1138,7 @@ export const timeseries = [
   {
     id: 'EE',
     quarter: '2019-07-01',
-    avg_d: '49.82',
+    avg_d: 49.82,
     avg_u: 34.84,
     avg_l: 15.25,
     name: 'Eesti',
@@ -1146,7 +1146,7 @@ export const timeseries = [
   {
     id: 'EE',
     quarter: '2019-10-01',
-    avg_d: '54.47',
+    avg_d: 54.47,
     avg_u: 41.19,
     avg_l: 13.05,
     name: 'Eesti',
@@ -1154,7 +1154,7 @@ export const timeseries = [
   {
     id: 'EE',
     quarter: '2020-01-01',
-    avg_d: '53.57',
+    avg_d: 53.57,
     avg_u: 40.49,
     avg_l: 11.5,
     name: 'Eesti',
@@ -1162,7 +1162,7 @@ export const timeseries = [
   {
     id: 'EE',
     quarter: '2020-04-01',
-    avg_d: '57.42',
+    avg_d: 57.42,
     avg_u: 44.23,
     avg_l: 11.93,
     name: 'Eesti',
@@ -1170,7 +1170,7 @@ export const timeseries = [
   {
     id: 'EE',
     quarter: '2020-07-01',
-    avg_d: '61.85',
+    avg_d: 61.85,
     avg_u: 46.9,
     avg_l: 11.4,
     name: 'Eesti',
@@ -1178,7 +1178,7 @@ export const timeseries = [
   {
     id: 'EE',
     quarter: '2020-10-01',
-    avg_d: '66.03',
+    avg_d: 66.03,
     avg_u: 51.59,
     avg_l: 10.01,
     name: 'Eesti',
@@ -1186,7 +1186,7 @@ export const timeseries = [
   {
     id: 'EE',
     quarter: '2021-01-01',
-    avg_d: '70.02',
+    avg_d: 70.02,
     avg_u: 54.44,
     avg_l: 10.48,
     name: 'Eesti',
@@ -1194,7 +1194,7 @@ export const timeseries = [
   {
     id: 'EE',
     quarter: '2021-04-01',
-    avg_d: '76.11',
+    avg_d: 76.11,
     avg_u: 56.58,
     avg_l: 10.77,
     name: 'Eesti',
@@ -1202,7 +1202,7 @@ export const timeseries = [
   {
     id: 'EE',
     quarter: '2021-07-01',
-    avg_d: '77.42',
+    avg_d: 77.42,
     avg_u: 57.76,
     avg_l: 11.2,
     name: 'Eesti',
@@ -1210,7 +1210,7 @@ export const timeseries = [
   {
     id: 'EE',
     quarter: '2021-10-01',
-    avg_d: '81.99',
+    avg_d: 81.99,
     avg_u: 64.58,
     avg_l: 10.31,
     name: 'Eesti',
@@ -1218,7 +1218,7 @@ export const timeseries = [
   {
     id: 'EE',
     quarter: '2022-01-01',
-    avg_d: '90.96',
+    avg_d: 90.96,
     avg_u: 73.02,
     avg_l: 9.72,
     name: 'Eesti',
@@ -1226,119 +1226,119 @@ export const timeseries = [
   {
     id: 'EE',
     quarter: '2022-04-01',
-    avg_d: '87.47',
+    avg_d: 87.47,
     avg_u: 69.29,
     avg_l: 10.82,
     name: 'Eesti',
   },
   {
-    id: 'EL',
+    id: 'GR',
     quarter: '2019-01-01',
-    avg_d: '20.95',
+    avg_d: 20.95,
     avg_u: 3.94,
     avg_l: 37.29,
     name: 'Elláda',
   },
   {
-    id: 'EL',
+    id: 'GR',
     quarter: '2019-04-01',
-    avg_d: '20.85',
+    avg_d: 20.85,
     avg_u: 4.96,
     avg_l: 42.05,
     name: 'Elláda',
   },
   {
-    id: 'EL',
+    id: 'GR',
     quarter: '2019-07-01',
-    avg_d: '20.18',
+    avg_d: 20.18,
     avg_u: 4.45,
     avg_l: 43.22,
     name: 'Elláda',
   },
   {
-    id: 'EL',
+    id: 'GR',
     quarter: '2019-10-01',
-    avg_d: '22.36',
+    avg_d: 22.36,
     avg_u: 4.43,
     avg_l: 36.39,
     name: 'Elláda',
   },
   {
-    id: 'EL',
+    id: 'GR',
     quarter: '2020-01-01',
-    avg_d: '22.79',
+    avg_d: 22.79,
     avg_u: 4.5,
     avg_l: 36.3,
     name: 'Elláda',
   },
   {
-    id: 'EL',
+    id: 'GR',
     quarter: '2020-04-01',
-    avg_d: '25.31',
+    avg_d: 25.31,
     avg_u: 5.04,
     avg_l: 32.43,
     name: 'Elláda',
   },
   {
-    id: 'EL',
+    id: 'GR',
     quarter: '2020-07-01',
-    avg_d: '24.84',
+    avg_d: 24.84,
     avg_u: 5.42,
     avg_l: 34.18,
     name: 'Elláda',
   },
   {
-    id: 'EL',
+    id: 'GR',
     quarter: '2020-10-01',
-    avg_d: '28.17',
+    avg_d: 28.17,
     avg_u: 5.74,
     avg_l: 30.49,
     name: 'Elláda',
   },
   {
-    id: 'EL',
+    id: 'GR',
     quarter: '2021-01-01',
-    avg_d: '31.18',
+    avg_d: 31.18,
     avg_u: 6.28,
     avg_l: 26.81,
     name: 'Elláda',
   },
   {
-    id: 'EL',
+    id: 'GR',
     quarter: '2021-04-01',
-    avg_d: '34.73',
+    avg_d: 34.73,
     avg_u: 6.79,
     avg_l: 25.09,
     name: 'Elláda',
   },
   {
-    id: 'EL',
+    id: 'GR',
     quarter: '2021-07-01',
-    avg_d: '32.7',
+    avg_d: 32.7,
     avg_u: 6.96,
     avg_l: 25.39,
     name: 'Elláda',
   },
   {
-    id: 'EL',
+    id: 'GR',
     quarter: '2021-10-01',
-    avg_d: '37.7',
+    avg_d: 37.7,
     avg_u: 7.38,
     avg_l: 21.38,
     name: 'Elláda',
   },
   {
-    id: 'EL',
+    id: 'GR',
     quarter: '2022-01-01',
-    avg_d: '41.24',
+    avg_d: 41.24,
     avg_u: 7.44,
     avg_l: 19.45,
     name: 'Elláda',
   },
   {
-    id: 'EL',
+    id: 'GR',
     quarter: '2022-04-01',
-    avg_d: '42.34',
+    avg_d: 42.34,
     avg_u: 8.31,
     avg_l: 20.66,
     name: 'Elláda',
@@ -1346,7 +1346,7 @@ export const timeseries = [
   {
     id: 'ES',
     quarter: '2019-01-01',
-    avg_d: '88.46',
+    avg_d: 88.46,
     avg_u: 77.81,
     avg_l: 26.95,
     name: 'España',
@@ -1354,7 +1354,7 @@ export const timeseries = [
   {
     id: 'ES',
     quarter: '2019-04-01',
-    avg_d: '86.42',
+    avg_d: 86.42,
     avg_u: 76.42,
     avg_l: 28.88,
     name: 'España',
@@ -1362,7 +1362,7 @@ export const timeseries = [
   {
     id: 'ES',
     quarter: '2019-07-01',
-    avg_d: '84.89',
+    avg_d: 84.89,
     avg_u: 77.93,
     avg_l: 28.27,
     name: 'España',
@@ -1370,7 +1370,7 @@ export const timeseries = [
   {
     id: 'ES',
     quarter: '2019-10-01',
-    avg_d: '93.44',
+    avg_d: 93.44,
     avg_u: 86.99,
     avg_l: 23.03,
     name: 'España',
@@ -1378,7 +1378,7 @@ export const timeseries = [
   {
     id: 'ES',
     quarter: '2020-01-01',
-    avg_d: '97.59',
+    avg_d: 97.59,
     avg_u: 89.78,
     avg_l: 21.85,
     name: 'España',
@@ -1386,7 +1386,7 @@ export const timeseries = [
   {
     id: 'ES',
     quarter: '2020-04-01',
-    avg_d: '109.05',
+    avg_d: 109.05,
     avg_u: 99.47,
     avg_l: 21.84,
     name: 'España',
@@ -1394,7 +1394,7 @@ export const timeseries = [
   {
     id: 'ES',
     quarter: '2020-07-01',
-    avg_d: '108.09',
+    avg_d: 108.09,
     avg_u: 100.01,
     avg_l: 23.91,
     name: 'España',
@@ -1402,7 +1402,7 @@ export const timeseries = [
   {
     id: 'ES',
     quarter: '2020-10-01',
-    avg_d: '125.95',
+    avg_d: 125.95,
     avg_u: 115.19,
     avg_l: 19,
     name: 'España',
@@ -1410,7 +1410,7 @@ export const timeseries = [
   {
     id: 'ES',
     quarter: '2021-01-01',
-    avg_d: '141.65',
+    avg_d: 141.65,
     avg_u: 128.77,
     avg_l: 18.13,
     name: 'España',
@@ -1418,7 +1418,7 @@ export const timeseries = [
   {
     id: 'ES',
     quarter: '2021-04-01',
-    avg_d: '157.55',
+    avg_d: 157.55,
     avg_u: 131.86,
     avg_l: 18.96,
     name: 'España',
@@ -1426,7 +1426,7 @@ export const timeseries = [
   {
     id: 'ES',
     quarter: '2021-07-01',
-    avg_d: '151.45',
+    avg_d: 151.45,
     avg_u: 129.29,
     avg_l: 20.42,
     name: 'España',
@@ -1434,7 +1434,7 @@ export const timeseries = [
   {
     id: 'ES',
     quarter: '2021-10-01',
-    avg_d: '173.57',
+    avg_d: 173.57,
     avg_u: 150.68,
     avg_l: 17.38,
     name: 'España',
@@ -1442,7 +1442,7 @@ export const timeseries = [
   {
     id: 'ES',
     quarter: '2022-01-01',
-    avg_d: '180.46',
+    avg_d: 180.46,
     avg_u: 156.68,
     avg_l: 17.2,
     name: 'España',
@@ -1450,7 +1450,7 @@ export const timeseries = [
   {
     id: 'ES',
     quarter: '2022-04-01',
-    avg_d: '176.19',
+    avg_d: 176.19,
     avg_u: 153.58,
     avg_l: 17.91,
     name: 'España',
@@ -1458,7 +1458,7 @@ export const timeseries = [
   {
     id: 'FI',
     quarter: '2019-01-01',
-    avg_d: '51.02',
+    avg_d: 51.02,
     avg_u: 22.06,
     avg_l: 23.8,
     name: 'Suomi/Finland',
@@ -1466,7 +1466,7 @@ export const timeseries = [
   {
     id: 'FI',
     quarter: '2019-04-01',
-    avg_d: '51.06',
+    avg_d: 51.06,
     avg_u: 21.27,
     avg_l: 24.85,
     name: 'Suomi/Finland',
@@ -1474,7 +1474,7 @@ export const timeseries = [
   {
     id: 'FI',
     quarter: '2019-07-01',
-    avg_d: '57.27',
+    avg_d: 57.27,
     avg_u: 24.47,
     avg_l: 22.23,
     name: 'Suomi/Finland',
@@ -1482,7 +1482,7 @@ export const timeseries = [
   {
     id: 'FI',
     quarter: '2019-10-01',
-    avg_d: '64.67',
+    avg_d: 64.67,
     avg_u: 29.61,
     avg_l: 19.18,
     name: 'Suomi/Finland',
@@ -1490,7 +1490,7 @@ export const timeseries = [
   {
     id: 'FI',
     quarter: '2020-01-01',
-    avg_d: '64.66',
+    avg_d: 64.66,
     avg_u: 29.35,
     avg_l: 18.46,
     name: 'Suomi/Finland',
@@ -1498,7 +1498,7 @@ export const timeseries = [
   {
     id: 'FI',
     quarter: '2020-04-01',
-    avg_d: '70.78',
+    avg_d: 70.78,
     avg_u: 30.69,
     avg_l: 18.31,
     name: 'Suomi/Finland',
@@ -1506,7 +1506,7 @@ export const timeseries = [
   {
     id: 'FI',
     quarter: '2020-07-01',
-    avg_d: '71.81',
+    avg_d: 71.81,
     avg_u: 31.53,
     avg_l: 18.87,
     name: 'Suomi/Finland',
@@ -1514,7 +1514,7 @@ export const timeseries = [
   {
     id: 'FI',
     quarter: '2020-10-01',
-    avg_d: '81.11',
+    avg_d: 81.11,
     avg_u: 37.01,
     avg_l: 17.47,
     name: 'Suomi/Finland',
@@ -1522,7 +1522,7 @@ export const timeseries = [
   {
     id: 'FI',
     quarter: '2021-01-01',
-    avg_d: '89.1',
+    avg_d: 89.1,
     avg_u: 38.29,
     avg_l: 16.82,
     name: 'Suomi/Finland',
@@ -1530,7 +1530,7 @@ export const timeseries = [
   {
     id: 'FI',
     quarter: '2021-04-01',
-    avg_d: '99.44',
+    avg_d: 99.44,
     avg_u: 39.74,
     avg_l: 16.8,
     name: 'Suomi/Finland',
@@ -1538,7 +1538,7 @@ export const timeseries = [
   {
     id: 'FI',
     quarter: '2021-07-01',
-    avg_d: '105.34',
+    avg_d: 105.34,
     avg_u: 43.88,
     avg_l: 16.77,
     name: 'Suomi/Finland',
@@ -1546,7 +1546,7 @@ export const timeseries = [
   {
     id: 'FI',
     quarter: '2021-10-01',
-    avg_d: '118.27',
+    avg_d: 118.27,
     avg_u: 52.19,
     avg_l: 15.66,
     name: 'Suomi/Finland',
@@ -1554,7 +1554,7 @@ export const timeseries = [
   {
     id: 'FI',
     quarter: '2022-01-01',
-    avg_d: '125.66',
+    avg_d: 125.66,
     avg_u: 54.84,
     avg_l: 15.97,
     name: 'Suomi/Finland',
@@ -1562,7 +1562,7 @@ export const timeseries = [
   {
     id: 'FI',
     quarter: '2022-04-01',
-    avg_d: '128.73',
+    avg_d: 128.73,
     avg_u: 59.56,
     avg_l: 17.03,
     name: 'Suomi/Finland',
@@ -1570,7 +1570,7 @@ export const timeseries = [
   {
     id: 'FR',
     quarter: '2019-01-01',
-    avg_d: '67.98',
+    avg_d: 67.98,
     avg_u: 45.31,
     avg_l: 39.3,
     name: 'France',
@@ -1578,7 +1578,7 @@ export const timeseries = [
   {
     id: 'FR',
     quarter: '2019-04-01',
-    avg_d: '68',
+    avg_d: 68,
     avg_u: 47.82,
     avg_l: 40.76,
     name: 'France',
@@ -1586,7 +1586,7 @@ export const timeseries = [
   {
     id: 'FR',
     quarter: '2019-07-01',
-    avg_d: '72.22',
+    avg_d: 72.22,
     avg_u: 53.89,
     avg_l: 40.08,
     name: 'France',
@@ -1594,7 +1594,7 @@ export const timeseries = [
   {
     id: 'FR',
     quarter: '2019-10-01',
-    avg_d: '85.77',
+    avg_d: 85.77,
     avg_u: 69.58,
     avg_l: 29.38,
     name: 'France',
@@ -1602,7 +1602,7 @@ export const timeseries = [
   {
     id: 'FR',
     quarter: '2020-01-01',
-    avg_d: '91.3',
+    avg_d: 91.3,
     avg_u: 74.3,
     avg_l: 27.28,
     name: 'France',
@@ -1610,7 +1610,7 @@ export const timeseries = [
   {
     id: 'FR',
     quarter: '2020-04-01',
-    avg_d: '95.65',
+    avg_d: 95.65,
     avg_u: 77.71,
     avg_l: 27.33,
     name: 'France',
@@ -1618,7 +1618,7 @@ export const timeseries = [
   {
     id: 'FR',
     quarter: '2020-07-01',
-    avg_d: '109.87',
+    avg_d: 109.87,
     avg_u: 88.2,
     avg_l: 26.79,
     name: 'France',
@@ -1626,7 +1626,7 @@ export const timeseries = [
   {
     id: 'FR',
     quarter: '2020-10-01',
-    avg_d: '130.37',
+    avg_d: 130.37,
     avg_u: 105.18,
     avg_l: 22.27,
     name: 'France',
@@ -1634,7 +1634,7 @@ export const timeseries = [
   {
     id: 'FR',
     quarter: '2021-01-01',
-    avg_d: '148.08',
+    avg_d: 148.08,
     avg_u: 116.79,
     avg_l: 20.67,
     name: 'France',
@@ -1642,7 +1642,7 @@ export const timeseries = [
   {
     id: 'FR',
     quarter: '2021-04-01',
-    avg_d: '162.05',
+    avg_d: 162.05,
     avg_u: 121.34,
     avg_l: 21.63,
     name: 'France',
@@ -1650,7 +1650,7 @@ export const timeseries = [
   {
     id: 'FR',
     quarter: '2021-07-01',
-    avg_d: '156.03',
+    avg_d: 156.03,
     avg_u: 115.27,
     avg_l: 24.49,
     name: 'France',
@@ -1658,7 +1658,7 @@ export const timeseries = [
   {
     id: 'FR',
     quarter: '2021-10-01',
-    avg_d: '178.66',
+    avg_d: 178.66,
     avg_u: 131.85,
     avg_l: 22.15,
     name: 'France',
@@ -1666,7 +1666,7 @@ export const timeseries = [
   {
     id: 'FR',
     quarter: '2022-01-01',
-    avg_d: '191.96',
+    avg_d: 191.96,
     avg_u: 147.43,
     avg_l: 19.65,
     name: 'France',
@@ -1674,7 +1674,7 @@ export const timeseries = [
   {
     id: 'FR',
     quarter: '2022-04-01',
-    avg_d: '201.49',
+    avg_d: 201.49,
     avg_u: 154.97,
     avg_l: 19.67,
     name: 'France',
@@ -1682,7 +1682,7 @@ export const timeseries = [
   {
     id: 'HR',
     quarter: '2019-01-01',
-    avg_d: '29.07',
+    avg_d: 29.07,
     avg_u: 12.87,
     avg_l: 31.56,
     name: 'Hrvatska',
@@ -1690,7 +1690,7 @@ export const timeseries = [
   {
     id: 'HR',
     quarter: '2019-04-01',
-    avg_d: '27.3',
+    avg_d: 27.3,
     avg_u: 13.21,
     avg_l: 34.62,
     name: 'Hrvatska',
@@ -1698,7 +1698,7 @@ export const timeseries = [
   {
     id: 'HR',
     quarter: '2019-07-01',
-    avg_d: '25.96',
+    avg_d: 25.96,
     avg_u: 11.81,
     avg_l: 32.62,
     name: 'Hrvatska',
@@ -1706,7 +1706,7 @@ export const timeseries = [
   {
     id: 'HR',
     quarter: '2019-10-01',
-    avg_d: '29.3',
+    avg_d: 29.3,
     avg_u: 13.21,
     avg_l: 25.21,
     name: 'Hrvatska',
@@ -1714,7 +1714,7 @@ export const timeseries = [
   {
     id: 'HR',
     quarter: '2020-01-01',
-    avg_d: '29.82',
+    avg_d: 29.82,
     avg_u: 13.33,
     avg_l: 25.97,
     name: 'Hrvatska',
@@ -1722,7 +1722,7 @@ export const timeseries = [
   {
     id: 'HR',
     quarter: '2020-04-01',
-    avg_d: '30.77',
+    avg_d: 30.77,
     avg_u: 14.23,
     avg_l: 24.42,
     name: 'Hrvatska',
@@ -1730,7 +1730,7 @@ export const timeseries = [
   {
     id: 'HR',
     quarter: '2020-07-01',
-    avg_d: '30.13',
+    avg_d: 30.13,
     avg_u: 14.69,
     avg_l: 26.01,
     name: 'Hrvatska',
@@ -1738,7 +1738,7 @@ export const timeseries = [
   {
     id: 'HR',
     quarter: '2020-10-01',
-    avg_d: '37.26',
+    avg_d: 37.26,
     avg_u: 17.65,
     avg_l: 21.42,
     name: 'Hrvatska',
@@ -1746,7 +1746,7 @@ export const timeseries = [
   {
     id: 'HR',
     quarter: '2021-01-01',
-    avg_d: '43.1',
+    avg_d: 43.1,
     avg_u: 20.62,
     avg_l: 18.99,
     name: 'Hrvatska',
@@ -1754,7 +1754,7 @@ export const timeseries = [
   {
     id: 'HR',
     quarter: '2021-04-01',
-    avg_d: '48.04',
+    avg_d: 48.04,
     avg_u: 24.29,
     avg_l: 19.13,
     name: 'Hrvatska',
@@ -1762,7 +1762,7 @@ export const timeseries = [
   {
     id: 'HR',
     quarter: '2021-07-01',
-    avg_d: '47.65',
+    avg_d: 47.65,
     avg_u: 25.79,
     avg_l: 20.6,
     name: 'Hrvatska',
@@ -1770,7 +1770,7 @@ export const timeseries = [
   {
     id: 'HR',
     quarter: '2021-10-01',
-    avg_d: '66.51',
+    avg_d: 66.51,
     avg_u: 35.32,
     avg_l: 16.21,
     name: 'Hrvatska',
@@ -1778,7 +1778,7 @@ export const timeseries = [
   {
     id: 'HR',
     quarter: '2022-01-01',
-    avg_d: '73.97',
+    avg_d: 73.97,
     avg_u: 38.81,
     avg_l: 16.05,
     name: 'Hrvatska',
@@ -1786,7 +1786,7 @@ export const timeseries = [
   {
     id: 'HR',
     quarter: '2022-04-01',
-    avg_d: '73.5',
+    avg_d: 73.5,
     avg_u: 39.83,
     avg_l: 17.43,
     name: 'Hrvatska',
@@ -1794,7 +1794,7 @@ export const timeseries = [
   {
     id: 'HU',
     quarter: '2019-01-01',
-    avg_d: '84.91',
+    avg_d: 84.91,
     avg_u: 35.97,
     avg_l: 15.89,
     name: 'Magyarország',
@@ -1802,7 +1802,7 @@ export const timeseries = [
   {
     id: 'HU',
     quarter: '2019-04-01',
-    avg_d: '83.34',
+    avg_d: 83.34,
     avg_u: 36.99,
     avg_l: 17.31,
     name: 'Magyarország',
@@ -1810,7 +1810,7 @@ export const timeseries = [
   {
     id: 'HU',
     quarter: '2019-07-01',
-    avg_d: '87.03',
+    avg_d: 87.03,
     avg_u: 39.99,
     avg_l: 15.16,
     name: 'Magyarország',
@@ -1818,7 +1818,7 @@ export const timeseries = [
   {
     id: 'HU',
     quarter: '2019-10-01',
-    avg_d: '91.07',
+    avg_d: 91.07,
     avg_u: 42.87,
     avg_l: 13.81,
     name: 'Magyarország',
@@ -1826,7 +1826,7 @@ export const timeseries = [
   {
     id: 'HU',
     quarter: '2020-01-01',
-    avg_d: '90.54',
+    avg_d: 90.54,
     avg_u: 43.61,
     avg_l: 13.51,
     name: 'Magyarország',
@@ -1834,7 +1834,7 @@ export const timeseries = [
   {
     id: 'HU',
     quarter: '2020-04-01',
-    avg_d: '92.34',
+    avg_d: 92.34,
     avg_u: 45.32,
     avg_l: 13.76,
     name: 'Magyarország',
@@ -1842,7 +1842,7 @@ export const timeseries = [
   {
     id: 'HU',
     quarter: '2020-07-01',
-    avg_d: '97.76',
+    avg_d: 97.76,
     avg_u: 46.77,
     avg_l: 14.11,
     name: 'Magyarország',
@@ -1850,7 +1850,7 @@ export const timeseries = [
   {
     id: 'HU',
     quarter: '2020-10-01',
-    avg_d: '111.89',
+    avg_d: 111.89,
     avg_u: 58.06,
     avg_l: 13.04,
     name: 'Magyarország',
@@ -1858,7 +1858,7 @@ export const timeseries = [
   {
     id: 'HU',
     quarter: '2021-01-01',
-    avg_d: '128.17',
+    avg_d: 128.17,
     avg_u: 64.78,
     avg_l: 12.5,
     name: 'Magyarország',
@@ -1866,7 +1866,7 @@ export const timeseries = [
   {
     id: 'HU',
     quarter: '2021-04-01',
-    avg_d: '139.86',
+    avg_d: 139.86,
     avg_u: 65.1,
     avg_l: 12.97,
     name: 'Magyarország',
@@ -1874,7 +1874,7 @@ export const timeseries = [
   {
     id: 'HU',
     quarter: '2021-07-01',
-    avg_d: '144.62',
+    avg_d: 144.62,
     avg_u: 68.71,
     avg_l: 13.18,
     name: 'Magyarország',
@@ -1882,7 +1882,7 @@ export const timeseries = [
   {
     id: 'HU',
     quarter: '2021-10-01',
-    avg_d: '161.97',
+    avg_d: 161.97,
     avg_u: 79.47,
     avg_l: 12.4,
     name: 'Magyarország',
@@ -1890,7 +1890,7 @@ export const timeseries = [
   {
     id: 'HU',
     quarter: '2022-01-01',
-    avg_d: '170.98',
+    avg_d: 170.98,
     avg_u: 85.01,
     avg_l: 12.39,
     name: 'Magyarország',
@@ -1898,7 +1898,7 @@ export const timeseries = [
   {
     id: 'HU',
     quarter: '2022-04-01',
-    avg_d: '165.62',
+    avg_d: 165.62,
     avg_u: 82.22,
     avg_l: 13.64,
     name: 'Magyarország',
@@ -1906,7 +1906,7 @@ export const timeseries = [
   {
     id: 'IE',
     quarter: '2019-01-01',
-    avg_d: '47.45',
+    avg_d: 47.45,
     avg_u: 17.74,
     avg_l: 34.99,
     name: 'Éire/Ireland',
@@ -1914,7 +1914,7 @@ export const timeseries = [
   {
     id: 'IE',
     quarter: '2019-04-01',
-    avg_d: '57',
+    avg_d: 57,
     avg_u: 19.23,
     avg_l: 32.17,
     name: 'Éire/Ireland',
@@ -1922,7 +1922,7 @@ export const timeseries = [
   {
     id: 'IE',
     quarter: '2019-07-01',
-    avg_d: '66.74',
+    avg_d: 66.74,
     avg_u: 19.84,
     avg_l: 28.44,
     name: 'Éire/Ireland',
@@ -1930,7 +1930,7 @@ export const timeseries = [
   {
     id: 'IE',
     quarter: '2019-10-01',
-    avg_d: '67.98',
+    avg_d: 67.98,
     avg_u: 23.36,
     avg_l: 25.86,
     name: 'Éire/Ireland',
@@ -1938,7 +1938,7 @@ export const timeseries = [
   {
     id: 'IE',
     quarter: '2020-01-01',
-    avg_d: '67.41',
+    avg_d: 67.41,
     avg_u: 22.67,
     avg_l: 26.23,
     name: 'Éire/Ireland',
@@ -1946,7 +1946,7 @@ export const timeseries = [
   {
     id: 'IE',
     quarter: '2020-04-01',
-    avg_d: '69.56',
+    avg_d: 69.56,
     avg_u: 22.87,
     avg_l: 25.72,
     name: 'Éire/Ireland',
@@ -1954,7 +1954,7 @@ export const timeseries = [
   {
     id: 'IE',
     quarter: '2020-07-01',
-    avg_d: '75.18',
+    avg_d: 75.18,
     avg_u: 24.33,
     avg_l: 21.8,
     name: 'Éire/Ireland',
@@ -1962,7 +1962,7 @@ export const timeseries = [
   {
     id: 'IE',
     quarter: '2020-10-01',
-    avg_d: '80.93',
+    avg_d: 80.93,
     avg_u: 25.26,
     avg_l: 20.93,
     name: 'Éire/Ireland',
@@ -1970,7 +1970,7 @@ export const timeseries = [
   {
     id: 'IE',
     quarter: '2021-01-01',
-    avg_d: '85.23',
+    avg_d: 85.23,
     avg_u: 25.78,
     avg_l: 25.24,
     name: 'Éire/Ireland',
@@ -1978,7 +1978,7 @@ export const timeseries = [
   {
     id: 'IE',
     quarter: '2021-04-01',
-    avg_d: '105.28',
+    avg_d: 105.28,
     avg_u: 28.92,
     avg_l: 22.1,
     name: 'Éire/Ireland',
@@ -1986,7 +1986,7 @@ export const timeseries = [
   {
     id: 'IE',
     quarter: '2021-07-01',
-    avg_d: '109.5',
+    avg_d: 109.5,
     avg_u: 29.38,
     avg_l: 17.7,
     name: 'Éire/Ireland',
@@ -1994,7 +1994,7 @@ export const timeseries = [
   {
     id: 'IE',
     quarter: '2021-10-01',
-    avg_d: '116.47',
+    avg_d: 116.47,
     avg_u: 30.78,
     avg_l: 18.91,
     name: 'Éire/Ireland',
@@ -2002,7 +2002,7 @@ export const timeseries = [
   {
     id: 'IE',
     quarter: '2022-01-01',
-    avg_d: '122.98',
+    avg_d: 122.98,
     avg_u: 31.93,
     avg_l: 18.26,
     name: 'Éire/Ireland',
@@ -2010,7 +2010,7 @@ export const timeseries = [
   {
     id: 'IE',
     quarter: '2022-04-01',
-    avg_d: '127.12',
+    avg_d: 127.12,
     avg_u: 32.63,
     avg_l: 17.9,
     name: 'Éire/Ireland',
@@ -2018,7 +2018,7 @@ export const timeseries = [
   {
     id: 'IS',
     quarter: '2019-01-01',
-    avg_d: '100.26',
+    avg_d: 100.26,
     avg_u: 91.93,
     avg_l: 10.81,
     name: 'Ísland',
@@ -2026,7 +2026,7 @@ export const timeseries = [
   {
     id: 'IS',
     quarter: '2019-04-01',
-    avg_d: '92.72',
+    avg_d: 92.72,
     avg_u: 85.18,
     avg_l: 14.13,
     name: 'Ísland',
@@ -2034,7 +2034,7 @@ export const timeseries = [
   {
     id: 'IS',
     quarter: '2019-07-01',
-    avg_d: '97.94',
+    avg_d: 97.94,
     avg_u: 93.82,
     avg_l: 9.59,
     name: 'Ísland',
@@ -2042,7 +2042,7 @@ export const timeseries = [
   {
     id: 'IS',
     quarter: '2019-10-01',
-    avg_d: '116.05',
+    avg_d: 116.05,
     avg_u: 117.36,
     avg_l: 6.54,
     name: 'Ísland',
@@ -2050,7 +2050,7 @@ export const timeseries = [
   {
     id: 'IS',
     quarter: '2020-01-01',
-    avg_d: '126.07',
+    avg_d: 126.07,
     avg_u: 127.24,
     avg_l: 6.52,
     name: 'Ísland',
@@ -2058,7 +2058,7 @@ export const timeseries = [
   {
     id: 'IS',
     quarter: '2020-04-01',
-    avg_d: '139.79',
+    avg_d: 139.79,
     avg_u: 134.17,
     avg_l: 6.75,
     name: 'Ísland',
@@ -2066,7 +2066,7 @@ export const timeseries = [
   {
     id: 'IS',
     quarter: '2020-07-01',
-    avg_d: '136.28',
+    avg_d: 136.28,
     avg_u: 128.23,
     avg_l: 7.37,
     name: 'Ísland',
@@ -2074,7 +2074,7 @@ export const timeseries = [
   {
     id: 'IS',
     quarter: '2020-10-01',
-    avg_d: '165.17',
+    avg_d: 165.17,
     avg_u: 153.53,
     avg_l: 5.18,
     name: 'Ísland',
@@ -2082,7 +2082,7 @@ export const timeseries = [
   {
     id: 'IS',
     quarter: '2021-01-01',
-    avg_d: '181.23',
+    avg_d: 181.23,
     avg_u: 165.17,
     avg_l: 5.1,
     name: 'Ísland',
@@ -2090,7 +2090,7 @@ export const timeseries = [
   {
     id: 'IS',
     quarter: '2021-04-01',
-    avg_d: '182.44',
+    avg_d: 182.44,
     avg_u: 164.13,
     avg_l: 5.06,
     name: 'Ísland',
@@ -2098,7 +2098,7 @@ export const timeseries = [
   {
     id: 'IS',
     quarter: '2021-07-01',
-    avg_d: '167.15',
+    avg_d: 167.15,
     avg_u: 149.98,
     avg_l: 6.84,
     name: 'Ísland',
@@ -2106,7 +2106,7 @@ export const timeseries = [
   {
     id: 'IS',
     quarter: '2021-10-01',
-    avg_d: '187.87',
+    avg_d: 187.87,
     avg_u: 171.64,
     avg_l: 5.07,
     name: 'Ísland',
@@ -2114,7 +2114,7 @@ export const timeseries = [
   {
     id: 'IS',
     quarter: '2022-01-01',
-    avg_d: '214.64',
+    avg_d: 214.64,
     avg_u: 191.66,
     avg_l: 4.77,
     name: 'Ísland',
@@ -2122,7 +2122,7 @@ export const timeseries = [
   {
     id: 'IS',
     quarter: '2022-04-01',
-    avg_d: '206.62',
+    avg_d: 206.62,
     avg_u: 183.92,
     avg_l: 6.98,
     name: 'Ísland',
@@ -2130,7 +2130,7 @@ export const timeseries = [
   {
     id: 'IT',
     quarter: '2019-01-01',
-    avg_d: '44.69',
+    avg_d: 44.69,
     avg_u: 16.7,
     avg_l: 32.86,
     name: 'Italia',
@@ -2138,7 +2138,7 @@ export const timeseries = [
   {
     id: 'IT',
     quarter: '2019-04-01',
-    avg_d: '46.13',
+    avg_d: 46.13,
     avg_u: 17.85,
     avg_l: 33.57,
     name: 'Italia',
@@ -2146,7 +2146,7 @@ export const timeseries = [
   {
     id: 'IT',
     quarter: '2019-07-01',
-    avg_d: '45.91',
+    avg_d: 45.91,
     avg_u: 18.39,
     avg_l: 31.45,
     name: 'Italia',
@@ -2154,7 +2154,7 @@ export const timeseries = [
   {
     id: 'IT',
     quarter: '2019-10-01',
-    avg_d: '50.7',
+    avg_d: 50.7,
     avg_u: 20.74,
     avg_l: 26.09,
     name: 'Italia',
@@ -2162,7 +2162,7 @@ export const timeseries = [
   {
     id: 'IT',
     quarter: '2020-01-01',
-    avg_d: '49.23',
+    avg_d: 49.23,
     avg_u: 20.39,
     avg_l: 28.73,
     name: 'Italia',
@@ -2170,7 +2170,7 @@ export const timeseries = [
   {
     id: 'IT',
     quarter: '2020-04-01',
-    avg_d: '51.75',
+    avg_d: 51.75,
     avg_u: 21.47,
     avg_l: 27.75,
     name: 'Italia',
@@ -2178,7 +2178,7 @@ export const timeseries = [
   {
     id: 'IT',
     quarter: '2020-07-01',
-    avg_d: '57.77',
+    avg_d: 57.77,
     avg_u: 24.61,
     avg_l: 24.63,
     name: 'Italia',
@@ -2186,7 +2186,7 @@ export const timeseries = [
   {
     id: 'IT',
     quarter: '2020-10-01',
-    avg_d: '64.03',
+    avg_d: 64.03,
     avg_u: 28.08,
     avg_l: 23.82,
     name: 'Italia',
@@ -2194,7 +2194,7 @@ export const timeseries = [
   {
     id: 'IT',
     quarter: '2021-01-01',
-    avg_d: '72.04',
+    avg_d: 72.04,
     avg_u: 31.44,
     avg_l: 23.21,
     name: 'Italia',
@@ -2202,7 +2202,7 @@ export const timeseries = [
   {
     id: 'IT',
     quarter: '2021-04-01',
-    avg_d: '86.08',
+    avg_d: 86.08,
     avg_u: 35.39,
     avg_l: 21.27,
     name: 'Italia',
@@ -2210,7 +2210,7 @@ export const timeseries = [
   {
     id: 'IT',
     quarter: '2021-07-01',
-    avg_d: '86.95',
+    avg_d: 86.95,
     avg_u: 38.07,
     avg_l: 21.95,
     name: 'Italia',
@@ -2218,7 +2218,7 @@ export const timeseries = [
   {
     id: 'IT',
     quarter: '2021-10-01',
-    avg_d: '97.81',
+    avg_d: 97.81,
     avg_u: 43.59,
     avg_l: 20.94,
     name: 'Italia',
@@ -2226,7 +2226,7 @@ export const timeseries = [
   {
     id: 'IT',
     quarter: '2022-01-01',
-    avg_d: '108.41',
+    avg_d: 108.41,
     avg_u: 51.42,
     avg_l: 20.3,
     name: 'Italia',
@@ -2234,7 +2234,7 @@ export const timeseries = [
   {
     id: 'IT',
     quarter: '2022-04-01',
-    avg_d: '112.26',
+    avg_d: 112.26,
     avg_u: 55.82,
     avg_l: 20.11,
     name: 'Italia',
@@ -2242,7 +2242,7 @@ export const timeseries = [
   {
     id: 'LI',
     quarter: '2019-01-01',
-    avg_d: '69.45',
+    avg_d: 69.45,
     avg_u: 37.88,
     avg_l: 14.59,
     name: 'Liechtenstein',
@@ -2250,7 +2250,7 @@ export const timeseries = [
   {
     id: 'LI',
     quarter: '2019-04-01',
-    avg_d: '75.71',
+    avg_d: 75.71,
     avg_u: 42.4,
     avg_l: 16.5,
     name: 'Liechtenstein',
@@ -2258,7 +2258,7 @@ export const timeseries = [
   {
     id: 'LI',
     quarter: '2019-07-01',
-    avg_d: '81.53',
+    avg_d: 81.53,
     avg_u: 54.18,
     avg_l: 11.12,
     name: 'Liechtenstein',
@@ -2266,7 +2266,7 @@ export const timeseries = [
   {
     id: 'LI',
     quarter: '2019-10-01',
-    avg_d: '93.48',
+    avg_d: 93.48,
     avg_u: 64.68,
     avg_l: 10.39,
     name: 'Liechtenstein',
@@ -2274,7 +2274,7 @@ export const timeseries = [
   {
     id: 'LI',
     quarter: '2020-01-01',
-    avg_d: '86.2',
+    avg_d: 86.2,
     avg_u: 60.21,
     avg_l: 10.98,
     name: 'Liechtenstein',
@@ -2282,7 +2282,7 @@ export const timeseries = [
   {
     id: 'LI',
     quarter: '2020-04-01',
-    avg_d: '93.06',
+    avg_d: 93.06,
     avg_u: 56.9,
     avg_l: 9.51,
     name: 'Liechtenstein',
@@ -2290,7 +2290,7 @@ export const timeseries = [
   {
     id: 'LI',
     quarter: '2020-07-01',
-    avg_d: '102.97',
+    avg_d: 102.97,
     avg_u: 75.56,
     avg_l: 8.67,
     name: 'Liechtenstein',
@@ -2298,7 +2298,7 @@ export const timeseries = [
   {
     id: 'LI',
     quarter: '2020-10-01',
-    avg_d: '114.69',
+    avg_d: 114.69,
     avg_u: 87.25,
     avg_l: 8.77,
     name: 'Liechtenstein',
@@ -2306,7 +2306,7 @@ export const timeseries = [
   {
     id: 'LI',
     quarter: '2021-01-01',
-    avg_d: '123.94',
+    avg_d: 123.94,
     avg_u: 92.55,
     avg_l: 8.37,
     name: 'Liechtenstein',
@@ -2314,7 +2314,7 @@ export const timeseries = [
   {
     id: 'LI',
     quarter: '2021-04-01',
-    avg_d: '124.91',
+    avg_d: 124.91,
     avg_u: 89.94,
     avg_l: 7.79,
     name: 'Liechtenstein',
@@ -2322,7 +2322,7 @@ export const timeseries = [
   {
     id: 'LI',
     quarter: '2021-07-01',
-    avg_d: '131.24',
+    avg_d: 131.24,
     avg_u: 97.68,
     avg_l: 7.23,
     name: 'Liechtenstein',
@@ -2330,7 +2330,7 @@ export const timeseries = [
   {
     id: 'LI',
     quarter: '2021-10-01',
-    avg_d: '150.56',
+    avg_d: 150.56,
     avg_u: 120.47,
     avg_l: 6.79,
     name: 'Liechtenstein',
@@ -2338,7 +2338,7 @@ export const timeseries = [
   {
     id: 'LI',
     quarter: '2022-01-01',
-    avg_d: '165.9',
+    avg_d: 165.9,
     avg_u: 137.86,
     avg_l: 6.11,
     name: 'Liechtenstein',
@@ -2346,7 +2346,7 @@ export const timeseries = [
   {
     id: 'LI',
     quarter: '2022-04-01',
-    avg_d: '168.78',
+    avg_d: 168.78,
     avg_u: 145.31,
     avg_l: 5.37,
     name: 'Liechtenstein',
@@ -2354,7 +2354,7 @@ export const timeseries = [
   {
     id: 'LT',
     quarter: '2019-01-01',
-    avg_d: '61.38',
+    avg_d: 61.38,
     avg_u: 56.55,
     avg_l: 19.43,
     name: 'Lietuva',
@@ -2362,7 +2362,7 @@ export const timeseries = [
   {
     id: 'LT',
     quarter: '2019-04-01',
-    avg_d: '61.38',
+    avg_d: 61.38,
     avg_u: 54.99,
     avg_l: 19.57,
     name: 'Lietuva',
@@ -2370,7 +2370,7 @@ export const timeseries = [
   {
     id: 'LT',
     quarter: '2019-07-01',
-    avg_d: '70',
+    avg_d: 70,
     avg_u: 68.48,
     avg_l: 14.13,
     name: 'Lietuva',
@@ -2378,7 +2378,7 @@ export const timeseries = [
   {
     id: 'LT',
     quarter: '2019-10-01',
-    avg_d: '72.43',
+    avg_d: 72.43,
     avg_u: 72.75,
     avg_l: 12.67,
     name: 'Lietuva',
@@ -2386,7 +2386,7 @@ export const timeseries = [
   {
     id: 'LT',
     quarter: '2020-01-01',
-    avg_d: '74.17',
+    avg_d: 74.17,
     avg_u: 75.95,
     avg_l: 12.27,
     name: 'Lietuva',
@@ -2394,7 +2394,7 @@ export const timeseries = [
   {
     id: 'LT',
     quarter: '2020-04-01',
-    avg_d: '79.54',
+    avg_d: 79.54,
     avg_u: 81.7,
     avg_l: 11.8,
     name: 'Lietuva',
@@ -2402,7 +2402,7 @@ export const timeseries = [
   {
     id: 'LT',
     quarter: '2020-07-01',
-    avg_d: '82.23',
+    avg_d: 82.23,
     avg_u: 82.71,
     avg_l: 12.63,
     name: 'Lietuva',
@@ -2410,7 +2410,7 @@ export const timeseries = [
   {
     id: 'LT',
     quarter: '2020-10-01',
-    avg_d: '87.75',
+    avg_d: 87.75,
     avg_u: 88.16,
     avg_l: 12.1,
     name: 'Lietuva',
@@ -2418,7 +2418,7 @@ export const timeseries = [
   {
     id: 'LT',
     quarter: '2021-01-01',
-    avg_d: '96.18',
+    avg_d: 96.18,
     avg_u: 94.02,
     avg_l: 11.97,
     name: 'Lietuva',
@@ -2426,7 +2426,7 @@ export const timeseries = [
   {
     id: 'LT',
     quarter: '2021-04-01',
-    avg_d: '100.64',
+    avg_d: 100.64,
     avg_u: 92.61,
     avg_l: 12.49,
     name: 'Lietuva',
@@ -2434,7 +2434,7 @@ export const timeseries = [
   {
     id: 'LT',
     quarter: '2021-07-01',
-    avg_d: '101.87',
+    avg_d: 101.87,
     avg_u: 93.24,
     avg_l: 12.53,
     name: 'Lietuva',
@@ -2442,7 +2442,7 @@ export const timeseries = [
   {
     id: 'LT',
     quarter: '2021-10-01',
-    avg_d: '111.01',
+    avg_d: 111.01,
     avg_u: 102.8,
     avg_l: 12.47,
     name: 'Lietuva',
@@ -2450,7 +2450,7 @@ export const timeseries = [
   {
     id: 'LT',
     quarter: '2022-01-01',
-    avg_d: '114.01',
+    avg_d: 114.01,
     avg_u: 106.04,
     avg_l: 13.04,
     name: 'Lietuva',
@@ -2458,7 +2458,7 @@ export const timeseries = [
   {
     id: 'LT',
     quarter: '2022-04-01',
-    avg_d: '125.65',
+    avg_d: 125.65,
     avg_u: 121.95,
     avg_l: 10.49,
     name: 'Lietuva',
@@ -2466,7 +2466,7 @@ export const timeseries = [
   {
     id: 'LU',
     quarter: '2019-01-01',
-    avg_d: '80.25',
+    avg_d: 80.25,
     avg_u: 56.32,
     avg_l: 13.95,
     name: 'Luxembourg',
@@ -2474,7 +2474,7 @@ export const timeseries = [
   {
     id: 'LU',
     quarter: '2019-04-01',
-    avg_d: '79.25',
+    avg_d: 79.25,
     avg_u: 56.88,
     avg_l: 15.4,
     name: 'Luxembourg',
@@ -2482,7 +2482,7 @@ export const timeseries = [
   {
     id: 'LU',
     quarter: '2019-07-01',
-    avg_d: '88.12',
+    avg_d: 88.12,
     avg_u: 60.72,
     avg_l: 13,
     name: 'Luxembourg',
@@ -2490,7 +2490,7 @@ export const timeseries = [
   {
     id: 'LU',
     quarter: '2019-10-01',
-    avg_d: '91.65',
+    avg_d: 91.65,
     avg_u: 63.88,
     avg_l: 11.76,
     name: 'Luxembourg',
@@ -2498,7 +2498,7 @@ export const timeseries = [
   {
     id: 'LU',
     quarter: '2020-01-01',
-    avg_d: '95.64',
+    avg_d: 95.64,
     avg_u: 64.65,
     avg_l: 12.32,
     name: 'Luxembourg',
@@ -2506,7 +2506,7 @@ export const timeseries = [
   {
     id: 'LU',
     quarter: '2020-04-01',
-    avg_d: '100.78',
+    avg_d: 100.78,
     avg_u: 65.07,
     avg_l: 12.43,
     name: 'Luxembourg',
@@ -2514,7 +2514,7 @@ export const timeseries = [
   {
     id: 'LU',
     quarter: '2020-07-01',
-    avg_d: '111.32',
+    avg_d: 111.32,
     avg_u: 72.42,
     avg_l: 10.67,
     name: 'Luxembourg',
@@ -2522,7 +2522,7 @@ export const timeseries = [
   {
     id: 'LU',
     quarter: '2020-10-01',
-    avg_d: '125.96',
+    avg_d: 125.96,
     avg_u: 85.56,
     avg_l: 10.73,
     name: 'Luxembourg',
@@ -2530,7 +2530,7 @@ export const timeseries = [
   {
     id: 'LU',
     quarter: '2021-01-01',
-    avg_d: '133.89',
+    avg_d: 133.89,
     avg_u: 90.89,
     avg_l: 9.61,
     name: 'Luxembourg',
@@ -2538,7 +2538,7 @@ export const timeseries = [
   {
     id: 'LU',
     quarter: '2021-04-01',
-    avg_d: '145.28',
+    avg_d: 145.28,
     avg_u: 94.02,
     avg_l: 9.15,
     name: 'Luxembourg',
@@ -2546,7 +2546,7 @@ export const timeseries = [
   {
     id: 'LU',
     quarter: '2021-07-01',
-    avg_d: '149.36',
+    avg_d: 149.36,
     avg_u: 96.34,
     avg_l: 8.95,
     name: 'Luxembourg',
@@ -2554,7 +2554,7 @@ export const timeseries = [
   {
     id: 'LU',
     quarter: '2021-10-01',
-    avg_d: '161.64',
+    avg_d: 161.64,
     avg_u: 103.39,
     avg_l: 9.41,
     name: 'Luxembourg',
@@ -2562,7 +2562,7 @@ export const timeseries = [
   {
     id: 'LU',
     quarter: '2022-01-01',
-    avg_d: '167.64',
+    avg_d: 167.64,
     avg_u: 107.64,
     avg_l: 9.33,
     name: 'Luxembourg',
@@ -2570,7 +2570,7 @@ export const timeseries = [
   {
     id: 'LU',
     quarter: '2022-04-01',
-    avg_d: '166.76',
+    avg_d: 166.76,
     avg_u: 105.54,
     avg_l: 9.32,
     name: 'Luxembourg',
@@ -2578,7 +2578,7 @@ export const timeseries = [
   {
     id: 'LV',
     quarter: '2019-01-01',
-    avg_d: '43.97',
+    avg_d: 43.97,
     avg_u: 40.87,
     avg_l: 18.72,
     name: 'Latvija',
@@ -2586,7 +2586,7 @@ export const timeseries = [
   {
     id: 'LV',
     quarter: '2019-04-01',
-    avg_d: '48.52',
+    avg_d: 48.52,
     avg_u: 43.34,
     avg_l: 19.49,
     name: 'Latvija',
@@ -2594,7 +2594,7 @@ export const timeseries = [
   {
     id: 'LV',
     quarter: '2019-07-01',
-    avg_d: '59.24',
+    avg_d: 59.24,
     avg_u: 56.68,
     avg_l: 16.11,
     name: 'Latvija',
@@ -2602,7 +2602,7 @@ export const timeseries = [
   {
     id: 'LV',
     quarter: '2019-10-01',
-    avg_d: '67.73',
+    avg_d: 67.73,
     avg_u: 68.01,
     avg_l: 13.47,
     name: 'Latvija',
@@ -2610,7 +2610,7 @@ export const timeseries = [
   {
     id: 'LV',
     quarter: '2020-01-01',
-    avg_d: '67.8',
+    avg_d: 67.8,
     avg_u: 66.94,
     avg_l: 14.38,
     name: 'Latvija',
@@ -2618,7 +2618,7 @@ export const timeseries = [
   {
     id: 'LV',
     quarter: '2020-04-01',
-    avg_d: '67.61',
+    avg_d: 67.61,
     avg_u: 65.49,
     avg_l: 17.2,
     name: 'Latvija',
@@ -2626,7 +2626,7 @@ export const timeseries = [
   {
     id: 'LV',
     quarter: '2020-07-01',
-    avg_d: '67.12',
+    avg_d: 67.12,
     avg_u: 63.99,
     avg_l: 16.34,
     name: 'Latvija',
@@ -2634,7 +2634,7 @@ export const timeseries = [
   {
     id: 'LV',
     quarter: '2020-10-01',
-    avg_d: '72.44',
+    avg_d: 72.44,
     avg_u: 71.57,
     avg_l: 15.43,
     name: 'Latvija',
@@ -2642,7 +2642,7 @@ export const timeseries = [
   {
     id: 'LV',
     quarter: '2021-01-01',
-    avg_d: '84.33',
+    avg_d: 84.33,
     avg_u: 83.76,
     avg_l: 14.44,
     name: 'Latvija',
@@ -2650,7 +2650,7 @@ export const timeseries = [
   {
     id: 'LV',
     quarter: '2021-04-01',
-    avg_d: '92.21',
+    avg_d: 92.21,
     avg_u: 83.75,
     avg_l: 15.41,
     name: 'Latvija',
@@ -2658,7 +2658,7 @@ export const timeseries = [
   {
     id: 'LV',
     quarter: '2021-07-01',
-    avg_d: '93.11',
+    avg_d: 93.11,
     avg_u: 82.37,
     avg_l: 15.56,
     name: 'Latvija',
@@ -2666,7 +2666,7 @@ export const timeseries = [
   {
     id: 'LV',
     quarter: '2021-10-01',
-    avg_d: '105',
+    avg_d: 105,
     avg_u: 92.32,
     avg_l: 14.91,
     name: 'Latvija',
@@ -2674,7 +2674,7 @@ export const timeseries = [
   {
     id: 'LV',
     quarter: '2022-01-01',
-    avg_d: '110.63',
+    avg_d: 110.63,
     avg_u: 95.56,
     avg_l: 14.67,
     name: 'Latvija',
@@ -2682,119 +2682,119 @@ export const timeseries = [
   {
     id: 'LV',
     quarter: '2022-04-01',
-    avg_d: '111.79',
+    avg_d: 111.79,
     avg_u: 95.89,
     avg_l: 14.47,
     name: 'Latvija',
   },
   {
-    id: 'MDA',
+    id: 'MD',
     quarter: '2019-01-01',
-    avg_d: '35.55',
+    avg_d: 35.55,
     avg_u: 32.17,
     avg_l: 16.83,
     name: 'Moldova',
   },
   {
-    id: 'MDA',
+    id: 'MD',
     quarter: '2019-04-01',
-    avg_d: '36.51',
+    avg_d: 36.51,
     avg_u: 32.34,
     avg_l: 18.65,
     name: 'Moldova',
   },
   {
-    id: 'MDA',
+    id: 'MD',
     quarter: '2019-07-01',
-    avg_d: '39.02',
+    avg_d: 39.02,
     avg_u: 35.15,
     avg_l: 15.3,
     name: 'Moldova',
   },
   {
-    id: 'MDA',
+    id: 'MD',
     quarter: '2019-10-01',
-    avg_d: '43.38',
+    avg_d: 43.38,
     avg_u: 39.98,
     avg_l: 10.1,
     name: 'Moldova',
   },
   {
-    id: 'MDA',
+    id: 'MD',
     quarter: '2020-01-01',
-    avg_d: '43.08',
+    avg_d: 43.08,
     avg_u: 39.85,
     avg_l: 10.32,
     name: 'Moldova',
   },
   {
-    id: 'MDA',
+    id: 'MD',
     quarter: '2020-04-01',
-    avg_d: '47.35',
+    avg_d: 47.35,
     avg_u: 44.49,
     avg_l: 9.63,
     name: 'Moldova',
   },
   {
-    id: 'MDA',
+    id: 'MD',
     quarter: '2020-07-01',
-    avg_d: '50.01',
+    avg_d: 50.01,
     avg_u: 47.65,
     avg_l: 9.19,
     name: 'Moldova',
   },
   {
-    id: 'MDA',
+    id: 'MD',
     quarter: '2020-10-01',
-    avg_d: '55.88',
+    avg_d: 55.88,
     avg_u: 53.16,
     avg_l: 8.88,
     name: 'Moldova',
   },
   {
-    id: 'MDA',
+    id: 'MD',
     quarter: '2021-01-01',
-    avg_d: '63.89',
+    avg_d: 63.89,
     avg_u: 60.84,
     avg_l: 8.21,
     name: 'Moldova',
   },
   {
-    id: 'MDA',
+    id: 'MD',
     quarter: '2021-04-01',
-    avg_d: '74.71',
+    avg_d: 74.71,
     avg_u: 68.53,
     avg_l: 7.64,
     name: 'Moldova',
   },
   {
-    id: 'MDA',
+    id: 'MD',
     quarter: '2021-07-01',
-    avg_d: '77.14',
+    avg_d: 77.14,
     avg_u: 71.16,
     avg_l: 8.52,
     name: 'Moldova',
   },
   {
-    id: 'MDA',
+    id: 'MD',
     quarter: '2021-10-01',
-    avg_d: '95.33',
+    avg_d: 95.33,
     avg_u: 89.21,
     avg_l: 6.88,
     name: 'Moldova',
   },
   {
-    id: 'MDA',
+    id: 'MD',
     quarter: '2022-01-01',
-    avg_d: '96.32',
+    avg_d: 96.32,
     avg_u: 90.94,
     avg_l: 6.88,
     name: 'Moldova',
   },
   {
-    id: 'MDA',
+    id: 'MD',
     quarter: '2022-04-01',
-    avg_d: '102.66',
+    avg_d: 102.66,
     avg_u: 96.71,
     avg_l: 7.26,
     name: 'Moldova',
@@ -2802,7 +2802,7 @@ export const timeseries = [
   {
     id: 'ME',
     quarter: '2019-01-01',
-    avg_d: '30.44',
+    avg_d: 30.44,
     avg_u: 5.7,
     avg_l: 24.56,
     name: 'Crna Gora',
@@ -2810,7 +2810,7 @@ export const timeseries = [
   {
     id: 'ME',
     quarter: '2019-04-01',
-    avg_d: '28.27',
+    avg_d: 28.27,
     avg_u: 5.67,
     avg_l: 23.95,
     name: 'Crna Gora',
@@ -2818,7 +2818,7 @@ export const timeseries = [
   {
     id: 'ME',
     quarter: '2019-07-01',
-    avg_d: '28.53',
+    avg_d: 28.53,
     avg_u: 5.98,
     avg_l: 25.64,
     name: 'Crna Gora',
@@ -2826,7 +2826,7 @@ export const timeseries = [
   {
     id: 'ME',
     quarter: '2019-10-01',
-    avg_d: '41.8',
+    avg_d: 41.8,
     avg_u: 7.05,
     avg_l: 15.36,
     name: 'Crna Gora',
@@ -2834,7 +2834,7 @@ export const timeseries = [
   {
     id: 'ME',
     quarter: '2020-01-01',
-    avg_d: '46.03',
+    avg_d: 46.03,
     avg_u: 5.69,
     avg_l: 13.86,
     name: 'Crna Gora',
@@ -2842,7 +2842,7 @@ export const timeseries = [
   {
     id: 'ME',
     quarter: '2020-04-01',
-    avg_d: '47.84',
+    avg_d: 47.84,
     avg_u: 7.17,
     avg_l: 13.86,
     name: 'Crna Gora',
@@ -2850,7 +2850,7 @@ export const timeseries = [
   {
     id: 'ME',
     quarter: '2020-07-01',
-    avg_d: '44.84',
+    avg_d: 44.84,
     avg_u: 7.42,
     avg_l: 13.92,
     name: 'Crna Gora',
@@ -2858,7 +2858,7 @@ export const timeseries = [
   {
     id: 'ME',
     quarter: '2020-10-01',
-    avg_d: '53.63',
+    avg_d: 53.63,
     avg_u: 8.68,
     avg_l: 13.99,
     name: 'Crna Gora',
@@ -2866,7 +2866,7 @@ export const timeseries = [
   {
     id: 'ME',
     quarter: '2021-01-01',
-    avg_d: '55.78',
+    avg_d: 55.78,
     avg_u: 8.89,
     avg_l: 13.37,
     name: 'Crna Gora',
@@ -2874,7 +2874,7 @@ export const timeseries = [
   {
     id: 'ME',
     quarter: '2021-04-01',
-    avg_d: '52.23',
+    avg_d: 52.23,
     avg_u: 8.48,
     avg_l: 11.83,
     name: 'Crna Gora',
@@ -2882,7 +2882,7 @@ export const timeseries = [
   {
     id: 'ME',
     quarter: '2021-07-01',
-    avg_d: '43.67',
+    avg_d: 43.67,
     avg_u: 7.56,
     avg_l: 13.84,
     name: 'Crna Gora',
@@ -2890,7 +2890,7 @@ export const timeseries = [
   {
     id: 'ME',
     quarter: '2021-10-01',
-    avg_d: '70',
+    avg_d: 70,
     avg_u: 11.67,
     avg_l: 11.78,
     name: 'Crna Gora',
@@ -2898,7 +2898,7 @@ export const timeseries = [
   {
     id: 'ME',
     quarter: '2022-01-01',
-    avg_d: '73.55',
+    avg_d: 73.55,
     avg_u: 11.48,
     avg_l: 10.6,
     name: 'Crna Gora',
@@ -2906,7 +2906,7 @@ export const timeseries = [
   {
     id: 'ME',
     quarter: '2022-04-01',
-    avg_d: '68.54',
+    avg_d: 68.54,
     avg_u: 11.65,
     avg_l: 11.83,
     name: 'Crna Gora',
@@ -2914,7 +2914,7 @@ export const timeseries = [
   {
     id: 'MK',
     quarter: '2019-01-01',
-    avg_d: '20.56',
+    avg_d: 20.56,
     avg_u: 9.9,
     avg_l: 32.78,
     name: 'Severna Makedonija',
@@ -2922,7 +2922,7 @@ export const timeseries = [
   {
     id: 'MK',
     quarter: '2019-04-01',
-    avg_d: '22.21',
+    avg_d: 22.21,
     avg_u: 10.93,
     avg_l: 27.04,
     name: 'Severna Makedonija',
@@ -2930,7 +2930,7 @@ export const timeseries = [
   {
     id: 'MK',
     quarter: '2019-07-01',
-    avg_d: '21.96',
+    avg_d: 21.96,
     avg_u: 10.85,
     avg_l: 28.46,
     name: 'Severna Makedonija',
@@ -2938,7 +2938,7 @@ export const timeseries = [
   {
     id: 'MK',
     quarter: '2019-10-01',
-    avg_d: '22.88',
+    avg_d: 22.88,
     avg_u: 11.56,
     avg_l: 25.35,
     name: 'Severna Makedonija',
@@ -2946,7 +2946,7 @@ export const timeseries = [
   {
     id: 'MK',
     quarter: '2020-01-01',
-    avg_d: '22.81',
+    avg_d: 22.81,
     avg_u: 12.23,
     avg_l: 25.32,
     name: 'Severna Makedonija',
@@ -2954,7 +2954,7 @@ export const timeseries = [
   {
     id: 'MK',
     quarter: '2020-04-01',
-    avg_d: '23.93',
+    avg_d: 23.93,
     avg_u: 12.99,
     avg_l: 22.49,
     name: 'Severna Makedonija',
@@ -2962,7 +2962,7 @@ export const timeseries = [
   {
     id: 'MK',
     quarter: '2020-07-01',
-    avg_d: '25.03',
+    avg_d: 25.03,
     avg_u: 14.12,
     avg_l: 20.6,
     name: 'Severna Makedonija',
@@ -2970,7 +2970,7 @@ export const timeseries = [
   {
     id: 'MK',
     quarter: '2020-10-01',
-    avg_d: '24.85',
+    avg_d: 24.85,
     avg_u: 14.44,
     avg_l: 22.68,
     name: 'Severna Makedonija',
@@ -2978,7 +2978,7 @@ export const timeseries = [
   {
     id: 'MK',
     quarter: '2021-01-01',
-    avg_d: '25.68',
+    avg_d: 25.68,
     avg_u: 14.67,
     avg_l: 20.62,
     name: 'Severna Makedonija',
@@ -2986,7 +2986,7 @@ export const timeseries = [
   {
     id: 'MK',
     quarter: '2021-04-01',
-    avg_d: '29.82',
+    avg_d: 29.82,
     avg_u: 17.21,
     avg_l: 17.87,
     name: 'Severna Makedonija',
@@ -2994,7 +2994,7 @@ export const timeseries = [
   {
     id: 'MK',
     quarter: '2021-07-01',
-    avg_d: '30.95',
+    avg_d: 30.95,
     avg_u: 18.14,
     avg_l: 17.53,
     name: 'Severna Makedonija',
@@ -3002,7 +3002,7 @@ export const timeseries = [
   {
     id: 'MK',
     quarter: '2021-10-01',
-    avg_d: '33.2',
+    avg_d: 33.2,
     avg_u: 19.4,
     avg_l: 17.04,
     name: 'Severna Makedonija',
@@ -3010,7 +3010,7 @@ export const timeseries = [
   {
     id: 'MK',
     quarter: '2022-01-01',
-    avg_d: '33.18',
+    avg_d: 33.18,
     avg_u: 19.78,
     avg_l: 17.28,
     name: 'Severna Makedonija',
@@ -3018,7 +3018,7 @@ export const timeseries = [
   {
     id: 'MK',
     quarter: '2022-04-01',
-    avg_d: '33.35',
+    avg_d: 33.35,
     avg_u: 21.78,
     avg_l: 17.38,
     name: 'Severna Makedonija',
@@ -3026,7 +3026,7 @@ export const timeseries = [
   {
     id: 'MT',
     quarter: '2019-01-01',
-    avg_d: '70.19',
+    avg_d: 70.19,
     avg_u: 11.7,
     avg_l: 14.48,
     name: 'Malta',
@@ -3034,7 +3034,7 @@ export const timeseries = [
   {
     id: 'MT',
     quarter: '2019-04-01',
-    avg_d: '67.07',
+    avg_d: 67.07,
     avg_u: 11.89,
     avg_l: 13.75,
     name: 'Malta',
@@ -3042,7 +3042,7 @@ export const timeseries = [
   {
     id: 'MT',
     quarter: '2019-07-01',
-    avg_d: '76.63',
+    avg_d: 76.63,
     avg_u: 13.56,
     avg_l: 12.65,
     name: 'Malta',
@@ -3050,7 +3050,7 @@ export const timeseries = [
   {
     id: 'MT',
     quarter: '2019-10-01',
-    avg_d: '76.67',
+    avg_d: 76.67,
     avg_u: 13.72,
     avg_l: 11.78,
     name: 'Malta',
@@ -3058,7 +3058,7 @@ export const timeseries = [
   {
     id: 'MT',
     quarter: '2020-01-01',
-    avg_d: '80.88',
+    avg_d: 80.88,
     avg_u: 13.6,
     avg_l: 11.95,
     name: 'Malta',
@@ -3066,7 +3066,7 @@ export const timeseries = [
   {
     id: 'MT',
     quarter: '2020-04-01',
-    avg_d: '88.33',
+    avg_d: 88.33,
     avg_u: 13.79,
     avg_l: 10.92,
     name: 'Malta',
@@ -3074,7 +3074,7 @@ export const timeseries = [
   {
     id: 'MT',
     quarter: '2020-07-01',
-    avg_d: '88.16',
+    avg_d: 88.16,
     avg_u: 14.06,
     avg_l: 10.94,
     name: 'Malta',
@@ -3082,7 +3082,7 @@ export const timeseries = [
   {
     id: 'MT',
     quarter: '2020-10-01',
-    avg_d: '97.54',
+    avg_d: 97.54,
     avg_u: 15.1,
     avg_l: 10.91,
     name: 'Malta',
@@ -3090,7 +3090,7 @@ export const timeseries = [
   {
     id: 'MT',
     quarter: '2021-01-01',
-    avg_d: '115.69',
+    avg_d: 115.69,
     avg_u: 17.26,
     avg_l: 10.43,
     name: 'Malta',
@@ -3098,7 +3098,7 @@ export const timeseries = [
   {
     id: 'MT',
     quarter: '2021-04-01',
-    avg_d: '117.04',
+    avg_d: 117.04,
     avg_u: 17.71,
     avg_l: 10.07,
     name: 'Malta',
@@ -3106,7 +3106,7 @@ export const timeseries = [
   {
     id: 'MT',
     quarter: '2021-07-01',
-    avg_d: '112.36',
+    avg_d: 112.36,
     avg_u: 18.53,
     avg_l: 10.33,
     name: 'Malta',
@@ -3114,7 +3114,7 @@ export const timeseries = [
   {
     id: 'MT',
     quarter: '2021-10-01',
-    avg_d: '135.22',
+    avg_d: 135.22,
     avg_u: 21.23,
     avg_l: 9.65,
     name: 'Malta',
@@ -3122,7 +3122,7 @@ export const timeseries = [
   {
     id: 'MT',
     quarter: '2022-01-01',
-    avg_d: '144.98',
+    avg_d: 144.98,
     avg_u: 24.44,
     avg_l: 9.6,
     name: 'Malta',
@@ -3130,7 +3130,7 @@ export const timeseries = [
   {
     id: 'MT',
     quarter: '2022-04-01',
-    avg_d: '136.46',
+    avg_d: 136.46,
     avg_u: 25.65,
     avg_l: 9.96,
     name: 'Malta',
@@ -3138,7 +3138,7 @@ export const timeseries = [
   {
     id: 'NL',
     quarter: '2019-01-01',
-    avg_d: '83.39',
+    avg_d: 83.39,
     avg_u: 38.87,
     avg_l: 13.74,
     name: 'Nederland',
@@ -3146,7 +3146,7 @@ export const timeseries = [
   {
     id: 'NL',
     quarter: '2019-04-01',
-    avg_d: '93.21',
+    avg_d: 93.21,
     avg_u: 37.62,
     avg_l: 14.07,
     name: 'Nederland',
@@ -3154,7 +3154,7 @@ export const timeseries = [
   {
     id: 'NL',
     quarter: '2019-07-01',
-    avg_d: '91.33',
+    avg_d: 91.33,
     avg_u: 42.78,
     avg_l: 12.75,
     name: 'Nederland',
@@ -3162,7 +3162,7 @@ export const timeseries = [
   {
     id: 'NL',
     quarter: '2019-10-01',
-    avg_d: '94.9',
+    avg_d: 94.9,
     avg_u: 49.18,
     avg_l: 11.41,
     name: 'Nederland',
@@ -3170,7 +3170,7 @@ export const timeseries = [
   {
     id: 'NL',
     quarter: '2020-01-01',
-    avg_d: '99.07',
+    avg_d: 99.07,
     avg_u: 54.71,
     avg_l: 10.82,
     name: 'Nederland',
@@ -3178,7 +3178,7 @@ export const timeseries = [
   {
     id: 'NL',
     quarter: '2020-04-01',
-    avg_d: '100.72',
+    avg_d: 100.72,
     avg_u: 58.08,
     avg_l: 11.09,
     name: 'Nederland',
@@ -3186,7 +3186,7 @@ export const timeseries = [
   {
     id: 'NL',
     quarter: '2020-07-01',
-    avg_d: '102.29',
+    avg_d: 102.29,
     avg_u: 61.4,
     avg_l: 11.16,
     name: 'Nederland',
@@ -3194,7 +3194,7 @@ export const timeseries = [
   {
     id: 'NL',
     quarter: '2020-10-01',
-    avg_d: '112.7',
+    avg_d: 112.7,
     avg_u: 66.22,
     avg_l: 10.67,
     name: 'Nederland',
@@ -3202,7 +3202,7 @@ export const timeseries = [
   {
     id: 'NL',
     quarter: '2021-01-01',
-    avg_d: '120.38',
+    avg_d: 120.38,
     avg_u: 70.98,
     avg_l: 10.7,
     name: 'Nederland',
@@ -3210,7 +3210,7 @@ export const timeseries = [
   {
     id: 'NL',
     quarter: '2021-04-01',
-    avg_d: '134.7',
+    avg_d: 134.7,
     avg_u: 65.57,
     avg_l: 11.21,
     name: 'Nederland',
@@ -3218,7 +3218,7 @@ export const timeseries = [
   {
     id: 'NL',
     quarter: '2021-07-01',
-    avg_d: '135.64',
+    avg_d: 135.64,
     avg_u: 73.42,
     avg_l: 11.04,
     name: 'Nederland',
@@ -3226,7 +3226,7 @@ export const timeseries = [
   {
     id: 'NL',
     quarter: '2021-10-01',
-    avg_d: '147.44',
+    avg_d: 147.44,
     avg_u: 83.75,
     avg_l: 10.99,
     name: 'Nederland',
@@ -3234,7 +3234,7 @@ export const timeseries = [
   {
     id: 'NL',
     quarter: '2022-01-01',
-    avg_d: '153.32',
+    avg_d: 153.32,
     avg_u: 93.56,
     avg_l: 10.44,
     name: 'Nederland',
@@ -3242,7 +3242,7 @@ export const timeseries = [
   {
     id: 'NL',
     quarter: '2022-04-01',
-    avg_d: '151.55',
+    avg_d: 151.55,
     avg_u: 92.31,
     avg_l: 10.6,
     name: 'Nederland',
@@ -3250,7 +3250,7 @@ export const timeseries = [
   {
     id: 'NO',
     quarter: '2019-01-01',
-    avg_d: '92.42',
+    avg_d: 92.42,
     avg_u: 69.52,
     avg_l: 18.06,
     name: 'Norge',
@@ -3258,7 +3258,7 @@ export const timeseries = [
   {
     id: 'NO',
     quarter: '2019-04-01',
-    avg_d: '94.39',
+    avg_d: 94.39,
     avg_u: 71.46,
     avg_l: 18.35,
     name: 'Norge',
@@ -3266,7 +3266,7 @@ export const timeseries = [
   {
     id: 'NO',
     quarter: '2019-07-01',
-    avg_d: '99.29',
+    avg_d: 99.29,
     avg_u: 77.9,
     avg_l: 15.22,
     name: 'Norge',
@@ -3274,7 +3274,7 @@ export const timeseries = [
   {
     id: 'NO',
     quarter: '2019-10-01',
-    avg_d: '109.63',
+    avg_d: 109.63,
     avg_u: 87.35,
     avg_l: 13.99,
     name: 'Norge',
@@ -3282,7 +3282,7 @@ export const timeseries = [
   {
     id: 'NO',
     quarter: '2020-01-01',
-    avg_d: '108.47',
+    avg_d: 108.47,
     avg_u: 90.23,
     avg_l: 12.99,
     name: 'Norge',
@@ -3290,7 +3290,7 @@ export const timeseries = [
   {
     id: 'NO',
     quarter: '2020-04-01',
-    avg_d: '113.91',
+    avg_d: 113.91,
     avg_u: 93.24,
     avg_l: 12.01,
     name: 'Norge',
@@ -3298,7 +3298,7 @@ export const timeseries = [
   {
     id: 'NO',
     quarter: '2020-07-01',
-    avg_d: '116.22',
+    avg_d: 116.22,
     avg_u: 94.87,
     avg_l: 11.88,
     name: 'Norge',
@@ -3306,7 +3306,7 @@ export const timeseries = [
   {
     id: 'NO',
     quarter: '2020-10-01',
-    avg_d: '130.39',
+    avg_d: 130.39,
     avg_u: 106.8,
     avg_l: 10.42,
     name: 'Norge',
@@ -3314,7 +3314,7 @@ export const timeseries = [
   {
     id: 'NO',
     quarter: '2021-01-01',
-    avg_d: '133.61',
+    avg_d: 133.61,
     avg_u: 109.93,
     avg_l: 11.45,
     name: 'Norge',
@@ -3322,7 +3322,7 @@ export const timeseries = [
   {
     id: 'NO',
     quarter: '2021-04-01',
-    avg_d: '144.33',
+    avg_d: 144.33,
     avg_u: 112.4,
     avg_l: 11.26,
     name: 'Norge',
@@ -3330,7 +3330,7 @@ export const timeseries = [
   {
     id: 'NO',
     quarter: '2021-07-01',
-    avg_d: '143.48',
+    avg_d: 143.48,
     avg_u: 114.96,
     avg_l: 11.01,
     name: 'Norge',
@@ -3338,7 +3338,7 @@ export const timeseries = [
   {
     id: 'NO',
     quarter: '2021-10-01',
-    avg_d: '156.98',
+    avg_d: 156.98,
     avg_u: 127.85,
     avg_l: 10.53,
     name: 'Norge',
@@ -3346,7 +3346,7 @@ export const timeseries = [
   {
     id: 'NO',
     quarter: '2022-01-01',
-    avg_d: '163.66',
+    avg_d: 163.66,
     avg_u: 135.15,
     avg_l: 10.29,
     name: 'Norge',
@@ -3354,7 +3354,7 @@ export const timeseries = [
   {
     id: 'NO',
     quarter: '2022-04-01',
-    avg_d: '155.28',
+    avg_d: 155.28,
     avg_u: 130.45,
     avg_l: 11.54,
     name: 'Norge',
@@ -3362,7 +3362,7 @@ export const timeseries = [
   {
     id: 'PL',
     quarter: '2019-01-01',
-    avg_d: '55.08',
+    avg_d: 55.08,
     avg_u: 19.81,
     avg_l: 31,
     name: 'Polska',
@@ -3370,7 +3370,7 @@ export const timeseries = [
   {
     id: 'PL',
     quarter: '2019-04-01',
-    avg_d: '56.81',
+    avg_d: 56.81,
     avg_u: 20.18,
     avg_l: 32.58,
     name: 'Polska',
@@ -3378,7 +3378,7 @@ export const timeseries = [
   {
     id: 'PL',
     quarter: '2019-07-01',
-    avg_d: '68.94',
+    avg_d: 68.94,
     avg_u: 24.79,
     avg_l: 23.23,
     name: 'Polska',
@@ -3386,7 +3386,7 @@ export const timeseries = [
   {
     id: 'PL',
     quarter: '2019-10-01',
-    avg_d: '73.81',
+    avg_d: 73.81,
     avg_u: 27.39,
     avg_l: 19.17,
     name: 'Polska',
@@ -3394,7 +3394,7 @@ export const timeseries = [
   {
     id: 'PL',
     quarter: '2020-01-01',
-    avg_d: '77.37',
+    avg_d: 77.37,
     avg_u: 29.83,
     avg_l: 19.13,
     name: 'Polska',
@@ -3402,7 +3402,7 @@ export const timeseries = [
   {
     id: 'PL',
     quarter: '2020-04-01',
-    avg_d: '82.2',
+    avg_d: 82.2,
     avg_u: 32.22,
     avg_l: 19.9,
     name: 'Polska',
@@ -3410,7 +3410,7 @@ export const timeseries = [
   {
     id: 'PL',
     quarter: '2020-07-01',
-    avg_d: '83.51',
+    avg_d: 83.51,
     avg_u: 33.87,
     avg_l: 19.94,
     name: 'Polska',
@@ -3418,7 +3418,7 @@ export const timeseries = [
   {
     id: 'PL',
     quarter: '2020-10-01',
-    avg_d: '90.37',
+    avg_d: 90.37,
     avg_u: 37.36,
     avg_l: 18.63,
     name: 'Polska',
@@ -3426,7 +3426,7 @@ export const timeseries = [
   {
     id: 'PL',
     quarter: '2021-01-01',
-    avg_d: '104.35',
+    avg_d: 104.35,
     avg_u: 40.67,
     avg_l: 17.56,
     name: 'Polska',
@@ -3434,7 +3434,7 @@ export const timeseries = [
   {
     id: 'PL',
     quarter: '2021-04-01',
-    avg_d: '120.44',
+    avg_d: 120.44,
     avg_u: 45.02,
     avg_l: 16.48,
     name: 'Polska',
@@ -3442,7 +3442,7 @@ export const timeseries = [
   {
     id: 'PL',
     quarter: '2021-07-01',
-    avg_d: '128.16',
+    avg_d: 128.16,
     avg_u: 49.29,
     avg_l: 16.51,
     name: 'Polska',
@@ -3450,7 +3450,7 @@ export const timeseries = [
   {
     id: 'PL',
     quarter: '2021-10-01',
-    avg_d: '142.39',
+    avg_d: 142.39,
     avg_u: 54.88,
     avg_l: 14.98,
     name: 'Polska',
@@ -3458,7 +3458,7 @@ export const timeseries = [
   {
     id: 'PL',
     quarter: '2022-01-01',
-    avg_d: '148.73',
+    avg_d: 148.73,
     avg_u: 57.14,
     avg_l: 14.93,
     name: 'Polska',
@@ -3466,7 +3466,7 @@ export const timeseries = [
   {
     id: 'PL',
     quarter: '2022-04-01',
-    avg_d: '150.56',
+    avg_d: 150.56,
     avg_u: 59.37,
     avg_l: 14.9,
     name: 'Polska',
@@ -3474,7 +3474,7 @@ export const timeseries = [
   {
     id: 'PT',
     quarter: '2019-01-01',
-    avg_d: '67.14',
+    avg_d: 67.14,
     avg_u: 40.61,
     avg_l: 18.75,
     name: 'Portugal',
@@ -3482,7 +3482,7 @@ export const timeseries = [
   {
     id: 'PT',
     quarter: '2019-04-01',
-    avg_d: '68.41',
+    avg_d: 68.41,
     avg_u: 41.29,
     avg_l: 18.55,
     name: 'Portugal',
@@ -3490,7 +3490,7 @@ export const timeseries = [
   {
     id: 'PT',
     quarter: '2019-07-01',
-    avg_d: '76.24',
+    avg_d: 76.24,
     avg_u: 42.7,
     avg_l: 18.27,
     name: 'Portugal',
@@ -3498,7 +3498,7 @@ export const timeseries = [
   {
     id: 'PT',
     quarter: '2019-10-01',
-    avg_d: '84.89',
+    avg_d: 84.89,
     avg_u: 46.76,
     avg_l: 13.93,
     name: 'Portugal',
@@ -3506,7 +3506,7 @@ export const timeseries = [
   {
     id: 'PT',
     quarter: '2020-01-01',
-    avg_d: '87.53',
+    avg_d: 87.53,
     avg_u: 43.85,
     avg_l: 13.88,
     name: 'Portugal',
@@ -3514,7 +3514,7 @@ export const timeseries = [
   {
     id: 'PT',
     quarter: '2020-04-01',
-    avg_d: '85.82',
+    avg_d: 85.82,
     avg_u: 42.76,
     avg_l: 15.3,
     name: 'Portugal',
@@ -3522,7 +3522,7 @@ export const timeseries = [
   {
     id: 'PT',
     quarter: '2020-07-01',
-    avg_d: '90.16',
+    avg_d: 90.16,
     avg_u: 45.3,
     avg_l: 16.28,
     name: 'Portugal',
@@ -3530,7 +3530,7 @@ export const timeseries = [
   {
     id: 'PT',
     quarter: '2020-10-01',
-    avg_d: '108.04',
+    avg_d: 108.04,
     avg_u: 53.28,
     avg_l: 13.54,
     name: 'Portugal',
@@ -3538,7 +3538,7 @@ export const timeseries = [
   {
     id: 'PT',
     quarter: '2021-01-01',
-    avg_d: '118.28',
+    avg_d: 118.28,
     avg_u: 56.01,
     avg_l: 13.29,
     name: 'Portugal',
@@ -3546,7 +3546,7 @@ export const timeseries = [
   {
     id: 'PT',
     quarter: '2021-04-01',
-    avg_d: '127.01',
+    avg_d: 127.01,
     avg_u: 57.81,
     avg_l: 12.83,
     name: 'Portugal',
@@ -3554,7 +3554,7 @@ export const timeseries = [
   {
     id: 'PT',
     quarter: '2021-07-01',
-    avg_d: '122.1',
+    avg_d: 122.1,
     avg_u: 54.31,
     avg_l: 15.73,
     name: 'Portugal',
@@ -3562,7 +3562,7 @@ export const timeseries = [
   {
     id: 'PT',
     quarter: '2021-10-01',
-    avg_d: '142.88',
+    avg_d: 142.88,
     avg_u: 61.5,
     avg_l: 12.5,
     name: 'Portugal',
@@ -3570,7 +3570,7 @@ export const timeseries = [
   {
     id: 'PT',
     quarter: '2022-01-01',
-    avg_d: '162.21',
+    avg_d: 162.21,
     avg_u: 70.53,
     avg_l: 10.79,
     name: 'Portugal',
@@ -3578,7 +3578,7 @@ export const timeseries = [
   {
     id: 'PT',
     quarter: '2022-04-01',
-    avg_d: '160.85',
+    avg_d: 160.85,
     avg_u: 69.84,
     avg_l: 11.83,
     name: 'Portugal',
@@ -3586,7 +3586,7 @@ export const timeseries = [
   {
     id: 'RO',
     quarter: '2019-01-01',
-    avg_d: '85.92',
+    avg_d: 85.92,
     avg_u: 69.61,
     avg_l: 14.54,
     name: 'România',
@@ -3594,7 +3594,7 @@ export const timeseries = [
   {
     id: 'RO',
     quarter: '2019-04-01',
-    avg_d: '86.03',
+    avg_d: 86.03,
     avg_u: 65.55,
     avg_l: 16.64,
     name: 'România',
@@ -3602,7 +3602,7 @@ export const timeseries = [
   {
     id: 'RO',
     quarter: '2019-07-01',
-    avg_d: '88.05',
+    avg_d: 88.05,
     avg_u: 70.29,
     avg_l: 12.15,
     name: 'România',
@@ -3610,7 +3610,7 @@ export const timeseries = [
   {
     id: 'RO',
     quarter: '2019-10-01',
-    avg_d: '95.02',
+    avg_d: 95.02,
     avg_u: 79.68,
     avg_l: 10.68,
     name: 'România',
@@ -3618,7 +3618,7 @@ export const timeseries = [
   {
     id: 'RO',
     quarter: '2020-01-01',
-    avg_d: '98.34',
+    avg_d: 98.34,
     avg_u: 83.68,
     avg_l: 10.31,
     name: 'România',
@@ -3626,7 +3626,7 @@ export const timeseries = [
   {
     id: 'RO',
     quarter: '2020-04-01',
-    avg_d: '105.23',
+    avg_d: 105.23,
     avg_u: 89.68,
     avg_l: 9.86,
     name: 'România',
@@ -3634,7 +3634,7 @@ export const timeseries = [
   {
     id: 'RO',
     quarter: '2020-07-01',
-    avg_d: '105.06',
+    avg_d: 105.06,
     avg_u: 91.38,
     avg_l: 10.07,
     name: 'România',
@@ -3642,7 +3642,7 @@ export const timeseries = [
   {
     id: 'RO',
     quarter: '2020-10-01',
-    avg_d: '122.58',
+    avg_d: 122.58,
     avg_u: 104.32,
     avg_l: 9.31,
     name: 'România',
@@ -3650,7 +3650,7 @@ export const timeseries = [
   {
     id: 'RO',
     quarter: '2021-01-01',
-    avg_d: '139.52',
+    avg_d: 139.52,
     avg_u: 116.44,
     avg_l: 8.2,
     name: 'România',
@@ -3658,7 +3658,7 @@ export const timeseries = [
   {
     id: 'RO',
     quarter: '2021-04-01',
-    avg_d: '157.76',
+    avg_d: 157.76,
     avg_u: 125.72,
     avg_l: 8.14,
     name: 'România',
@@ -3666,7 +3666,7 @@ export const timeseries = [
   {
     id: 'RO',
     quarter: '2021-07-01',
-    avg_d: '157.07',
+    avg_d: 157.07,
     avg_u: 127.72,
     avg_l: 8.47,
     name: 'România',
@@ -3674,7 +3674,7 @@ export const timeseries = [
   {
     id: 'RO',
     quarter: '2021-10-01',
-    avg_d: '177.41',
+    avg_d: 177.41,
     avg_u: 150.84,
     avg_l: 7.71,
     name: 'România',
@@ -3682,7 +3682,7 @@ export const timeseries = [
   {
     id: 'RO',
     quarter: '2022-01-01',
-    avg_d: '184.13',
+    avg_d: 184.13,
     avg_u: 155.54,
     avg_l: 7.94,
     name: 'România',
@@ -3690,7 +3690,7 @@ export const timeseries = [
   {
     id: 'RO',
     quarter: '2022-04-01',
-    avg_d: '179.66',
+    avg_d: 179.66,
     avg_u: 152.27,
     avg_l: 8.65,
     name: 'România',
@@ -3698,7 +3698,7 @@ export const timeseries = [
   {
     id: 'RS',
     quarter: '2019-01-01',
-    avg_d: '35.75',
+    avg_d: 35.75,
     avg_u: 7.84,
     avg_l: 21.17,
     name: 'Serbia',
@@ -3706,7 +3706,7 @@ export const timeseries = [
   {
     id: 'RS',
     quarter: '2019-04-01',
-    avg_d: '39.2',
+    avg_d: 39.2,
     avg_u: 9.42,
     avg_l: 19.09,
     name: 'Serbia',
@@ -3714,7 +3714,7 @@ export const timeseries = [
   {
     id: 'RS',
     quarter: '2019-07-01',
-    avg_d: '39.71',
+    avg_d: 39.71,
     avg_u: 10.16,
     avg_l: 17.67,
     name: 'Serbia',
@@ -3722,7 +3722,7 @@ export const timeseries = [
   {
     id: 'RS',
     quarter: '2019-10-01',
-    avg_d: '40.09',
+    avg_d: 40.09,
     avg_u: 11.17,
     avg_l: 15.84,
     name: 'Serbia',
@@ -3730,7 +3730,7 @@ export const timeseries = [
   {
     id: 'RS',
     quarter: '2020-01-01',
-    avg_d: '41.65',
+    avg_d: 41.65,
     avg_u: 11.78,
     avg_l: 15.74,
     name: 'Serbia',
@@ -3738,7 +3738,7 @@ export const timeseries = [
   {
     id: 'RS',
     quarter: '2020-04-01',
-    avg_d: '48.44',
+    avg_d: 48.44,
     avg_u: 14.5,
     avg_l: 14.61,
     name: 'Serbia',
@@ -3746,7 +3746,7 @@ export const timeseries = [
   {
     id: 'RS',
     quarter: '2020-07-01',
-    avg_d: '49.59',
+    avg_d: 49.59,
     avg_u: 15.1,
     avg_l: 14.12,
     name: 'Serbia',
@@ -3754,7 +3754,7 @@ export const timeseries = [
   {
     id: 'RS',
     quarter: '2020-10-01',
-    avg_d: '52.42',
+    avg_d: 52.42,
     avg_u: 16.16,
     avg_l: 14.1,
     name: 'Serbia',
@@ -3762,7 +3762,7 @@ export const timeseries = [
   {
     id: 'RS',
     quarter: '2021-01-01',
-    avg_d: '56.38',
+    avg_d: 56.38,
     avg_u: 17.36,
     avg_l: 13.43,
     name: 'Serbia',
@@ -3770,7 +3770,7 @@ export const timeseries = [
   {
     id: 'RS',
     quarter: '2021-04-01',
-    avg_d: '62.93',
+    avg_d: 62.93,
     avg_u: 19.47,
     avg_l: 12.78,
     name: 'Serbia',
@@ -3778,7 +3778,7 @@ export const timeseries = [
   {
     id: 'RS',
     quarter: '2021-07-01',
-    avg_d: '61.84',
+    avg_d: 61.84,
     avg_u: 19.27,
     avg_l: 13.59,
     name: 'Serbia',
@@ -3786,7 +3786,7 @@ export const timeseries = [
   {
     id: 'RS',
     quarter: '2021-10-01',
-    avg_d: '70.62',
+    avg_d: 70.62,
     avg_u: 21.87,
     avg_l: 13.02,
     name: 'Serbia',
@@ -3794,7 +3794,7 @@ export const timeseries = [
   {
     id: 'RS',
     quarter: '2022-01-01',
-    avg_d: '72.02',
+    avg_d: 72.02,
     avg_u: 22.9,
     avg_l: 13.22,
     name: 'Serbia',
@@ -3802,7 +3802,7 @@ export const timeseries = [
   {
     id: 'RS',
     quarter: '2022-04-01',
-    avg_d: '75.88',
+    avg_d: 75.88,
     avg_u: 24.77,
     avg_l: 13.41,
     name: 'Serbia',
@@ -3810,7 +3810,7 @@ export const timeseries = [
   {
     id: 'SE',
     quarter: '2019-01-01',
-    avg_d: '84.66',
+    avg_d: 84.66,
     avg_u: 56.23,
     avg_l: 18.21,
     name: 'Sverige',
@@ -3818,7 +3818,7 @@ export const timeseries = [
   {
     id: 'SE',
     quarter: '2019-04-01',
-    avg_d: '82.96',
+    avg_d: 82.96,
     avg_u: 56.71,
     avg_l: 18.3,
     name: 'Sverige',
@@ -3826,7 +3826,7 @@ export const timeseries = [
   {
     id: 'SE',
     quarter: '2019-07-01',
-    avg_d: '89.96',
+    avg_d: 89.96,
     avg_u: 64.73,
     avg_l: 13.98,
     name: 'Sverige',
@@ -3834,7 +3834,7 @@ export const timeseries = [
   {
     id: 'SE',
     quarter: '2019-10-01',
-    avg_d: '98.68',
+    avg_d: 98.68,
     avg_u: 76.7,
     avg_l: 12.85,
     name: 'Sverige',
@@ -3842,7 +3842,7 @@ export const timeseries = [
   {
     id: 'SE',
     quarter: '2020-01-01',
-    avg_d: '103.6',
+    avg_d: 103.6,
     avg_u: 85.15,
     avg_l: 11.91,
     name: 'Sverige',
@@ -3850,7 +3850,7 @@ export const timeseries = [
   {
     id: 'SE',
     quarter: '2020-04-01',
-    avg_d: '112.17',
+    avg_d: 112.17,
     avg_u: 89.96,
     avg_l: 11.8,
     name: 'Sverige',
@@ -3858,7 +3858,7 @@ export const timeseries = [
   {
     id: 'SE',
     quarter: '2020-07-01',
-    avg_d: '110.96',
+    avg_d: 110.96,
     avg_u: 87.1,
     avg_l: 12.19,
     name: 'Sverige',
@@ -3866,7 +3866,7 @@ export const timeseries = [
   {
     id: 'SE',
     quarter: '2020-10-01',
-    avg_d: '123.24',
+    avg_d: 123.24,
     avg_u: 98.11,
     avg_l: 11.21,
     name: 'Sverige',
@@ -3874,7 +3874,7 @@ export const timeseries = [
   {
     id: 'SE',
     quarter: '2021-01-01',
-    avg_d: '132.22',
+    avg_d: 132.22,
     avg_u: 108.19,
     avg_l: 10.9,
     name: 'Sverige',
@@ -3882,7 +3882,7 @@ export const timeseries = [
   {
     id: 'SE',
     quarter: '2021-04-01',
-    avg_d: '140.62',
+    avg_d: 140.62,
     avg_u: 108.53,
     avg_l: 11.6,
     name: 'Sverige',
@@ -3890,7 +3890,7 @@ export const timeseries = [
   {
     id: 'SE',
     quarter: '2021-07-01',
-    avg_d: '135.38',
+    avg_d: 135.38,
     avg_u: 107.53,
     avg_l: 12.35,
     name: 'Sverige',
@@ -3898,7 +3898,7 @@ export const timeseries = [
   {
     id: 'SE',
     quarter: '2021-10-01',
-    avg_d: '151.08',
+    avg_d: 151.08,
     avg_u: 119.29,
     avg_l: 12.11,
     name: 'Sverige',
@@ -3906,7 +3906,7 @@ export const timeseries = [
   {
     id: 'SE',
     quarter: '2022-01-01',
-    avg_d: '159.22',
+    avg_d: 159.22,
     avg_u: 127.87,
     avg_l: 11.2,
     name: 'Sverige',
@@ -3914,7 +3914,7 @@ export const timeseries = [
   {
     id: 'SE',
     quarter: '2022-04-01',
-    avg_d: '150.55',
+    avg_d: 150.55,
     avg_u: 121.51,
     avg_l: 12.15,
     name: 'Sverige',
@@ -3922,7 +3922,7 @@ export const timeseries = [
   {
     id: 'SI',
     quarter: '2019-01-01',
-    avg_d: '40.02',
+    avg_d: 40.02,
     avg_u: 14.91,
     avg_l: 19.01,
     name: 'Slovenija',
@@ -3930,7 +3930,7 @@ export const timeseries = [
   {
     id: 'SI',
     quarter: '2019-04-01',
-    avg_d: '43.35',
+    avg_d: 43.35,
     avg_u: 15.98,
     avg_l: 19.24,
     name: 'Slovenija',
@@ -3938,7 +3938,7 @@ export const timeseries = [
   {
     id: 'SI',
     quarter: '2019-07-01',
-    avg_d: '43.88',
+    avg_d: 43.88,
     avg_u: 16.54,
     avg_l: 17.83,
     name: 'Slovenija',
@@ -3946,7 +3946,7 @@ export const timeseries = [
   {
     id: 'SI',
     quarter: '2019-10-01',
-    avg_d: '47.12',
+    avg_d: 47.12,
     avg_u: 17.43,
     avg_l: 15.91,
     name: 'Slovenija',
@@ -3954,7 +3954,7 @@ export const timeseries = [
   {
     id: 'SI',
     quarter: '2020-01-01',
-    avg_d: '49.87',
+    avg_d: 49.87,
     avg_u: 17.73,
     avg_l: 15.25,
     name: 'Slovenija',
@@ -3962,7 +3962,7 @@ export const timeseries = [
   {
     id: 'SI',
     quarter: '2020-04-01',
-    avg_d: '54.54',
+    avg_d: 54.54,
     avg_u: 19.06,
     avg_l: 14.89,
     name: 'Slovenija',
@@ -3970,7 +3970,7 @@ export const timeseries = [
   {
     id: 'SI',
     quarter: '2020-07-01',
-    avg_d: '57.24',
+    avg_d: 57.24,
     avg_u: 20.78,
     avg_l: 13.16,
     name: 'Slovenija',
@@ -3978,7 +3978,7 @@ export const timeseries = [
   {
     id: 'SI',
     quarter: '2020-10-01',
-    avg_d: '66.43',
+    avg_d: 66.43,
     avg_u: 28.8,
     avg_l: 13.03,
     name: 'Slovenija',
@@ -3986,7 +3986,7 @@ export const timeseries = [
   {
     id: 'SI',
     quarter: '2021-01-01',
-    avg_d: '74.23',
+    avg_d: 74.23,
     avg_u: 34.02,
     avg_l: 12.22,
     name: 'Slovenija',
@@ -3994,7 +3994,7 @@ export const timeseries = [
   {
     id: 'SI',
     quarter: '2021-04-01',
-    avg_d: '83',
+    avg_d: 83,
     avg_u: 36.78,
     avg_l: 12.8,
     name: 'Slovenija',
@@ -4002,7 +4002,7 @@ export const timeseries = [
   {
     id: 'SI',
     quarter: '2021-07-01',
-    avg_d: '81.63',
+    avg_d: 81.63,
     avg_u: 35.98,
     avg_l: 11.99,
     name: 'Slovenija',
@@ -4010,7 +4010,7 @@ export const timeseries = [
   {
     id: 'SI',
     quarter: '2021-10-01',
-    avg_d: '90.83',
+    avg_d: 90.83,
     avg_u: 38.37,
     avg_l: 11.84,
     name: 'Slovenija',
@@ -4018,7 +4018,7 @@ export const timeseries = [
   {
     id: 'SI',
     quarter: '2022-01-01',
-    avg_d: '92.48',
+    avg_d: 92.48,
     avg_u: 38.18,
     avg_l: 11.95,
     name: 'Slovenija',
@@ -4026,7 +4026,7 @@ export const timeseries = [
   {
     id: 'SI',
     quarter: '2022-04-01',
-    avg_d: '103.04',
+    avg_d: 103.04,
     avg_u: 41.33,
     avg_l: 11.86,
     name: 'Slovenija',
@@ -4034,7 +4034,7 @@ export const timeseries = [
   {
     id: 'SK',
     quarter: '2019-01-01',
-    avg_d: '42.64',
+    avg_d: 42.64,
     avg_u: 15.59,
     avg_l: 25.09,
     name: 'Slovensko',
@@ -4042,7 +4042,7 @@ export const timeseries = [
   {
     id: 'SK',
     quarter: '2019-04-01',
-    avg_d: '42.46',
+    avg_d: 42.46,
     avg_u: 15.87,
     avg_l: 25.39,
     name: 'Slovensko',
@@ -4050,7 +4050,7 @@ export const timeseries = [
   {
     id: 'SK',
     quarter: '2019-07-01',
-    avg_d: '43.08',
+    avg_d: 43.08,
     avg_u: 17.01,
     avg_l: 23.86,
     name: 'Slovensko',
@@ -4058,7 +4058,7 @@ export const timeseries = [
   {
     id: 'SK',
     quarter: '2019-10-01',
-    avg_d: '49.52',
+    avg_d: 49.52,
     avg_u: 19.15,
     avg_l: 19.91,
     name: 'Slovensko',
@@ -4066,7 +4066,7 @@ export const timeseries = [
   {
     id: 'SK',
     quarter: '2020-01-01',
-    avg_d: '48.89',
+    avg_d: 48.89,
     avg_u: 19.67,
     avg_l: 19.79,
     name: 'Slovensko',
@@ -4074,7 +4074,7 @@ export const timeseries = [
   {
     id: 'SK',
     quarter: '2020-04-01',
-    avg_d: '53.82',
+    avg_d: 53.82,
     avg_u: 23.12,
     avg_l: 19.08,
     name: 'Slovensko',
@@ -4082,7 +4082,7 @@ export const timeseries = [
   {
     id: 'SK',
     quarter: '2020-07-01',
-    avg_d: '54.53',
+    avg_d: 54.53,
     avg_u: 23.63,
     avg_l: 18.49,
     name: 'Slovensko',
@@ -4090,7 +4090,7 @@ export const timeseries = [
   {
     id: 'SK',
     quarter: '2020-10-01',
-    avg_d: '60.58',
+    avg_d: 60.58,
     avg_u: 25.74,
     avg_l: 17.66,
     name: 'Slovensko',
@@ -4098,7 +4098,7 @@ export const timeseries = [
   {
     id: 'SK',
     quarter: '2021-01-01',
-    avg_d: '66.75',
+    avg_d: 66.75,
     avg_u: 27.72,
     avg_l: 16.4,
     name: 'Slovensko',
@@ -4106,7 +4106,7 @@ export const timeseries = [
   {
     id: 'SK',
     quarter: '2021-04-01',
-    avg_d: '80.49',
+    avg_d: 80.49,
     avg_u: 30.14,
     avg_l: 15.74,
     name: 'Slovensko',
@@ -4114,7 +4114,7 @@ export const timeseries = [
   {
     id: 'SK',
     quarter: '2021-07-01',
-    avg_d: '82.24',
+    avg_d: 82.24,
     avg_u: 30.68,
     avg_l: 15.47,
     name: 'Slovensko',
@@ -4122,7 +4122,7 @@ export const timeseries = [
   {
     id: 'SK',
     quarter: '2021-10-01',
-    avg_d: '95.94',
+    avg_d: 95.94,
     avg_u: 37.77,
     avg_l: 14.62,
     name: 'Slovensko',
@@ -4130,7 +4130,7 @@ export const timeseries = [
   {
     id: 'SK',
     quarter: '2022-01-01',
-    avg_d: '99.62',
+    avg_d: 99.62,
     avg_u: 38.99,
     avg_l: 15.19,
     name: 'Slovensko',
@@ -4138,7 +4138,7 @@ export const timeseries = [
   {
     id: 'SK',
     quarter: '2022-04-01',
-    avg_d: '110.12',
+    avg_d: 110.12,
     avg_u: 48.3,
     avg_l: 15.33,
     name: 'Slovensko',
@@ -4146,7 +4146,7 @@ export const timeseries = [
   {
     id: 'TR',
     quarter: '2019-01-01',
-    avg_d: '20.8',
+    avg_d: 20.8,
     avg_u: 4.24,
     avg_l: 26.36,
     name: 'Türkiye',
@@ -4154,7 +4154,7 @@ export const timeseries = [
   {
     id: 'TR',
     quarter: '2019-04-01',
-    avg_d: '20.55',
+    avg_d: 20.55,
     avg_u: 4.99,
     avg_l: 28.08,
     name: 'Türkiye',
@@ -4162,7 +4162,7 @@ export const timeseries = [
   {
     id: 'TR',
     quarter: '2019-07-01',
-    avg_d: '20.2',
+    avg_d: 20.2,
     avg_u: 4.88,
     avg_l: 27.84,
     name: 'Türkiye',
@@ -4170,7 +4170,7 @@ export const timeseries = [
   {
     id: 'TR',
     quarter: '2019-10-01',
-    avg_d: '21.81',
+    avg_d: 21.81,
     avg_u: 4.62,
     avg_l: 24.31,
     name: 'Türkiye',
@@ -4178,7 +4178,7 @@ export const timeseries = [
   {
     id: 'TR',
     quarter: '2020-01-01',
-    avg_d: '21.89',
+    avg_d: 21.89,
     avg_u: 4.1,
     avg_l: 23.85,
     name: 'Türkiye',
@@ -4186,7 +4186,7 @@ export const timeseries = [
   {
     id: 'TR',
     quarter: '2020-04-01',
-    avg_d: '23.43',
+    avg_d: 23.43,
     avg_u: 6.77,
     avg_l: 22.75,
     name: 'Türkiye',
@@ -4194,7 +4194,7 @@ export const timeseries = [
   {
     id: 'TR',
     quarter: '2020-07-01',
-    avg_d: '22.43',
+    avg_d: 22.43,
     avg_u: 4.99,
     avg_l: 23.42,
     name: 'Türkiye',
@@ -4202,7 +4202,7 @@ export const timeseries = [
   {
     id: 'TR',
     quarter: '2020-10-01',
-    avg_d: '24.17',
+    avg_d: 24.17,
     avg_u: 5.56,
     avg_l: 21.54,
     name: 'Türkiye',
@@ -4210,7 +4210,7 @@ export const timeseries = [
   {
     id: 'TR',
     quarter: '2021-01-01',
-    avg_d: '26.27',
+    avg_d: 26.27,
     avg_u: 5.94,
     avg_l: 18.93,
     name: 'Türkiye',
@@ -4218,7 +4218,7 @@ export const timeseries = [
   {
     id: 'TR',
     quarter: '2021-04-01',
-    avg_d: '31.92',
+    avg_d: 31.92,
     avg_u: 6.71,
     avg_l: 18.72,
     name: 'Türkiye',
@@ -4226,7 +4226,7 @@ export const timeseries = [
   {
     id: 'TR',
     quarter: '2021-07-01',
-    avg_d: '33.2',
+    avg_d: 33.2,
     avg_u: 8.59,
     avg_l: 18.75,
     name: 'Türkiye',
@@ -4234,7 +4234,7 @@ export const timeseries = [
   {
     id: 'TR',
     quarter: '2021-10-01',
-    avg_d: '38.21',
+    avg_d: 38.21,
     avg_u: 9.64,
     avg_l: 16.56,
     name: 'Türkiye',
@@ -4242,7 +4242,7 @@ export const timeseries = [
   {
     id: 'TR',
     quarter: '2022-01-01',
-    avg_d: '40.44',
+    avg_d: 40.44,
     avg_u: 9.94,
     avg_l: 16.12,
     name: 'Türkiye',
@@ -4250,7 +4250,7 @@ export const timeseries = [
   {
     id: 'TR',
     quarter: '2022-04-01',
-    avg_d: '43.06',
+    avg_d: 43.06,
     avg_u: 11.15,
     avg_l: 16,
     name: 'Türkiye',
@@ -4258,7 +4258,7 @@ export const timeseries = [
   {
     id: 'UA',
     quarter: '2019-01-01',
-    avg_d: '38.59',
+    avg_d: 38.59,
     avg_u: 38.65,
     avg_l: 17.48,
     name: 'Ukraine',
@@ -4266,7 +4266,7 @@ export const timeseries = [
   {
     id: 'UA',
     quarter: '2019-04-01',
-    avg_d: '38.64',
+    avg_d: 38.64,
     avg_u: 38.34,
     avg_l: 17.98,
     name: 'Ukraine',
@@ -4274,7 +4274,7 @@ export const timeseries = [
   {
     id: 'UA',
     quarter: '2019-07-01',
-    avg_d: '38.95',
+    avg_d: 38.95,
     avg_u: 40.21,
     avg_l: 14.36,
     name: 'Ukraine',
@@ -4282,7 +4282,7 @@ export const timeseries = [
   {
     id: 'UA',
     quarter: '2019-10-01',
-    avg_d: '38.62',
+    avg_d: 38.62,
     avg_u: 41.6,
     avg_l: 12.39,
     name: 'Ukraine',
@@ -4290,7 +4290,7 @@ export const timeseries = [
   {
     id: 'UA',
     quarter: '2020-01-01',
-    avg_d: '37.72',
+    avg_d: 37.72,
     avg_u: 40.73,
     avg_l: 12.74,
     name: 'Ukraine',
@@ -4298,7 +4298,7 @@ export const timeseries = [
   {
     id: 'UA',
     quarter: '2020-04-01',
-    avg_d: '41.56',
+    avg_d: 41.56,
     avg_u: 44.54,
     avg_l: 12.39,
     name: 'Ukraine',
@@ -4306,7 +4306,7 @@ export const timeseries = [
   {
     id: 'UA',
     quarter: '2020-07-01',
-    avg_d: '42.74',
+    avg_d: 42.74,
     avg_u: 45.88,
     avg_l: 11.12,
     name: 'Ukraine',
@@ -4314,7 +4314,7 @@ export const timeseries = [
   {
     id: 'UA',
     quarter: '2020-10-01',
-    avg_d: '46.73',
+    avg_d: 46.73,
     avg_u: 50.81,
     avg_l: 9.79,
     name: 'Ukraine',
@@ -4322,7 +4322,7 @@ export const timeseries = [
   {
     id: 'UA',
     quarter: '2021-01-01',
-    avg_d: '51.88',
+    avg_d: 51.88,
     avg_u: 55.74,
     avg_l: 9.27,
     name: 'Ukraine',
@@ -4330,7 +4330,7 @@ export const timeseries = [
   {
     id: 'UA',
     quarter: '2021-04-01',
-    avg_d: '56.38',
+    avg_d: 56.38,
     avg_u: 56.56,
     avg_l: 8.52,
     name: 'Ukraine',
@@ -4338,7 +4338,7 @@ export const timeseries = [
   {
     id: 'UA',
     quarter: '2021-07-01',
-    avg_d: '59.57',
+    avg_d: 59.57,
     avg_u: 59.14,
     avg_l: 8.57,
     name: 'Ukraine',
@@ -4346,7 +4346,7 @@ export const timeseries = [
   {
     id: 'UA',
     quarter: '2021-10-01',
-    avg_d: '67.08',
+    avg_d: 67.08,
     avg_u: 66.7,
     avg_l: 7.65,
     name: 'Ukraine',
@@ -4354,7 +4354,7 @@ export const timeseries = [
   {
     id: 'UA',
     quarter: '2022-01-01',
-    avg_d: '64.49',
+    avg_d: 64.49,
     avg_u: 65.22,
     avg_l: 8.86,
     name: 'Ukraine',
@@ -4362,119 +4362,119 @@ export const timeseries = [
   {
     id: 'UA',
     quarter: '2022-04-01',
-    avg_d: '63.43',
+    avg_d: 63.43,
     avg_u: 63.87,
     avg_l: 10.46,
     name: 'Ukraine',
   },
   {
-    id: 'UK',
+    id: 'GB',
     quarter: '2019-01-01',
-    avg_d: '52.13',
+    avg_d: 52.13,
     avg_u: 12.02,
     avg_l: 23.68,
     name: 'United Kingdom',
   },
   {
-    id: 'UK',
+    id: 'GB',
     quarter: '2019-04-01',
-    avg_d: '55.81',
+    avg_d: 55.81,
     avg_u: 12.89,
     avg_l: 24.84,
     name: 'United Kingdom',
   },
   {
-    id: 'UK',
+    id: 'GB',
     quarter: '2019-07-01',
-    avg_d: '59.64',
+    avg_d: 59.64,
     avg_u: 14.53,
     avg_l: 22.75,
     name: 'United Kingdom',
   },
   {
-    id: 'UK',
+    id: 'GB',
     quarter: '2019-10-01',
-    avg_d: '61.27',
+    avg_d: 61.27,
     avg_u: 15.45,
     avg_l: 21.02,
     name: 'United Kingdom',
   },
   {
-    id: 'UK',
+    id: 'GB',
     quarter: '2020-01-01',
-    avg_d: '62.35',
+    avg_d: 62.35,
     avg_u: 16.05,
     avg_l: 20.57,
     name: 'United Kingdom',
   },
   {
-    id: 'UK',
+    id: 'GB',
     quarter: '2020-04-01',
-    avg_d: '64.77',
+    avg_d: 64.77,
     avg_u: 16.39,
     avg_l: 20.95,
     name: 'United Kingdom',
   },
   {
-    id: 'UK',
+    id: 'GB',
     quarter: '2020-07-01',
-    avg_d: '65.69',
+    avg_d: 65.69,
     avg_u: 17.45,
     avg_l: 20.19,
     name: 'United Kingdom',
   },
   {
-    id: 'UK',
+    id: 'GB',
     quarter: '2020-10-01',
-    avg_d: '72.52',
+    avg_d: 72.52,
     avg_u: 19.33,
     avg_l: 18.29,
     name: 'United Kingdom',
   },
   {
-    id: 'UK',
+    id: 'GB',
     quarter: '2021-01-01',
-    avg_d: '79.46',
+    avg_d: 79.46,
     avg_u: 20.54,
     avg_l: 17.89,
     name: 'United Kingdom',
   },
   {
-    id: 'UK',
+    id: 'GB',
     quarter: '2021-04-01',
-    avg_d: '89.81',
+    avg_d: 89.81,
     avg_u: 22.69,
     avg_l: 19.02,
     name: 'United Kingdom',
   },
   {
-    id: 'UK',
+    id: 'GB',
     quarter: '2021-07-01',
-    avg_d: '95.15',
+    avg_d: 95.15,
     avg_u: 24.7,
     avg_l: 19.61,
     name: 'United Kingdom',
   },
   {
-    id: 'UK',
+    id: 'GB',
     quarter: '2021-10-01',
-    avg_d: '104.42',
+    avg_d: 104.42,
     avg_u: 27.29,
     avg_l: 19.64,
     name: 'United Kingdom',
   },
   {
-    id: 'UK',
+    id: 'GB',
     quarter: '2022-01-01',
-    avg_d: '111.72',
+    avg_d: 111.72,
     avg_u: 30.17,
     avg_l: 19.15,
     name: 'United Kingdom',
   },
   {
-    id: 'UK',
+    id: 'GB',
     quarter: '2022-04-01',
-    avg_d: '114.64',
+    avg_d: 114.64,
     avg_u: 32.3,
     avg_l: 19.43,
     name: 'United Kingdom',
@@ -4482,7 +4482,7 @@ export const timeseries = [
   {
     id: 'XKO',
     quarter: '2019-01-01',
-    avg_d: '34.57',
+    avg_d: 34.57,
     avg_u: 11.12,
     avg_l: 14.75,
     name: 'Kosovo',
@@ -4490,7 +4490,7 @@ export const timeseries = [
   {
     id: 'XKO',
     quarter: '2019-04-01',
-    avg_d: '36.54',
+    avg_d: 36.54,
     avg_u: 12.99,
     avg_l: 13.46,
     name: 'Kosovo',
@@ -4498,7 +4498,7 @@ export const timeseries = [
   {
     id: 'XKO',
     quarter: '2019-07-01',
-    avg_d: '35.96',
+    avg_d: 35.96,
     avg_u: 12.99,
     avg_l: 13.33,
     name: 'Kosovo',
@@ -4506,7 +4506,7 @@ export const timeseries = [
   {
     id: 'XKO',
     quarter: '2019-10-01',
-    avg_d: '42.08',
+    avg_d: 42.08,
     avg_u: 14.97,
     avg_l: 12.45,
     name: 'Kosovo',
@@ -4514,7 +4514,7 @@ export const timeseries = [
   {
     id: 'XKO',
     quarter: '2020-01-01',
-    avg_d: '42.98',
+    avg_d: 42.98,
     avg_u: 15.03,
     avg_l: 12.44,
     name: 'Kosovo',
@@ -4522,7 +4522,7 @@ export const timeseries = [
   {
     id: 'XKO',
     quarter: '2020-04-01',
-    avg_d: '45.14',
+    avg_d: 45.14,
     avg_u: 14.55,
     avg_l: 12.78,
     name: 'Kosovo',
@@ -4530,7 +4530,7 @@ export const timeseries = [
   {
     id: 'XKO',
     quarter: '2020-07-01',
-    avg_d: '44.84',
+    avg_d: 44.84,
     avg_u: 15.67,
     avg_l: 12.23,
     name: 'Kosovo',
@@ -4538,7 +4538,7 @@ export const timeseries = [
   {
     id: 'XKO',
     quarter: '2020-10-01',
-    avg_d: '44.33',
+    avg_d: 44.33,
     avg_u: 16.17,
     avg_l: 12.57,
     name: 'Kosovo',
@@ -4546,7 +4546,7 @@ export const timeseries = [
   {
     id: 'XKO',
     quarter: '2021-01-01',
-    avg_d: '46.05',
+    avg_d: 46.05,
     avg_u: 17.19,
     avg_l: 11.45,
     name: 'Kosovo',
@@ -4554,7 +4554,7 @@ export const timeseries = [
   {
     id: 'XKO',
     quarter: '2021-04-01',
-    avg_d: '53.65',
+    avg_d: 53.65,
     avg_u: 18.65,
     avg_l: 11.14,
     name: 'Kosovo',
@@ -4562,7 +4562,7 @@ export const timeseries = [
   {
     id: 'XKO',
     quarter: '2021-07-01',
-    avg_d: '56.61',
+    avg_d: 56.61,
     avg_u: 18.32,
     avg_l: 11.66,
     name: 'Kosovo',
@@ -4570,7 +4570,7 @@ export const timeseries = [
   {
     id: 'XKO',
     quarter: '2021-10-01',
-    avg_d: '63.2',
+    avg_d: 63.2,
     avg_u: 19.05,
     avg_l: 10.78,
     name: 'Kosovo',
@@ -4578,7 +4578,7 @@ export const timeseries = [
   {
     id: 'XKO',
     quarter: '2022-01-01',
-    avg_d: '65.5',
+    avg_d: 65.5,
     avg_u: 19.9,
     avg_l: 11.49,
     name: 'Kosovo',
@@ -4586,7 +4586,7 @@ export const timeseries = [
   {
     id: 'XKO',
     quarter: '2022-04-01',
-    avg_d: '60.31',
+    avg_d: 60.31,
     avg_u: 25.66,
     avg_l: 11.52,
     name: 'Kosovo',

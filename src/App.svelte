@@ -1,5 +1,5 @@
 <script>
-  import {scaleOrdinal, scaleLinear, scaleBand, scaleTime,scaleThreshold } from 'd3-scale'
+  import {scaleOrdinal, scaleLinear, scaleBand, scaleTime,scaleThreshold,scaleSequential } from 'd3-scale'
   import {timeseries} from './timeseries_data.js'
   import {april2022} from './april2022_data.js'
   import {countries_english} from './countries_english_data.js'
@@ -35,15 +35,11 @@
   let data_selectedQuarter = april2022_data
   const timeseries_data = new DataContainer (timeseries) 
 
-  // convert avg_d from string to numbers
-  const avg_d_with_numbers = timeseries_data.mutate({avg_d_with_numbers: row => Number(row.avg_d)})
-  console.log(avg_d_with_numbers)
-  
 
   // data for menu
   const time = timeseries_data.domain('quarter').sort()
   $: data_selectedQuarter = timeseries_data.filter(row => row.quarter === selectedQuarter)
-
+  // console.log('')
   const setZoomIdentity = zoomId => { zoomIdentity = zoomId }
   const setBlockReindexing = bool =>{blockReindexing = bool}
   const zoom = createZoomHandler(zoomIdentity, {
@@ -66,19 +62,13 @@
   // 1. position
   const myGeoScale = fitScales(neighbourhoods.domain('$geometry'))
 
-  // const myColorScale = scaleOrdinal()
-  //   .domain(neighbourhoods.domain('$key'))
-  //   .range(schemePaired)
-  //   console.log(myColorScale)
-
-   $: speed_distribution = data_selectedQuarter
+ $: speed_distribution = data_selectedQuarter
     .bin({ 
       column: 'avg_u', 
-      method: 'EqualInterval', // method: customBinning,
-      numClasses: 10, // numClasses: binRanges.length - 1
+      method: 'Manual', // method: customBinning,
+      manualClasses: [0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200] , // numClasses: binRanges.length - 1
     })
-    .summarise({ total_count: { id: 'count' } 
-})
+    .summarise({ total_count: { id: 'count' }})
 
 
   // BARS AND COLORS
@@ -108,19 +98,12 @@
         selectedCountries = null;
       }
     }  
-console.log(neighbourhoods)
-let neighbourhoodsWithoutNA = timeseries_data.dropNA('avg_u')
 
- let classBins
-  $: classBins = neighbourhoodsWithoutNA
-    .bin({ column: 'avg_u', method:  'CKMeans', numClasses: 4 })
-    .column('bins')
-
-  $: classThresholds = binsToThreshold(classBins)
+  $: classThresholds = binsToThreshold(speed_distribution._data['bins'])
   
   $: myColorScale = scaleThreshold()
     .domain(classThresholds)
-    .range(schemeBlues[4])
+    .range(fillRectangles)
 
   function binsToThreshold (bins) {
     const thresholds = []
@@ -131,18 +114,6 @@ let neighbourhoodsWithoutNA = timeseries_data.dropNA('avg_u')
     return thresholds
   }
  
-
-  // mouse over behavior
-  let activehood = undefined
-  $: activePrice = neighbourhoodsWithoutNA.row({key: activehood})['avg_u']
-  function handleMouseover (event) {
-    console.log("===>>",event.key)
-    activehood = event.key
-  }
-  function handleMouseout () {
-    activehood = ''
-  }
-
 </script>
 
 <!-- SELECTION MENU -->
@@ -189,12 +160,6 @@ let neighbourhoodsWithoutNA = timeseries_data.dropNA('avg_u')
           onMouseout = {() => selectedIndex = null}
           fill={fillRectangles}
           fillOpacity= {fillOpacityRectangles}/>
-          {#if activePrice !== undefined}
-          <Line 
-            x={[activePrice, activePrice]}
-            y={[0, 200]}
-          />
-        {/if}
         <XAxis title={"Upload speed in " + formattedDate + " [Mbps]"}
         tickCount={20} 
                titleFont={'Noto Sans'}
@@ -228,7 +193,6 @@ let neighbourhoodsWithoutNA = timeseries_data.dropNA('avg_u')
        {zoomIdentity}
       {...zoom.handlers}
       {...pan.handlers}
-      onMouseout={handleMouseout}
       >
       >
        <PolygonLayer 
@@ -241,9 +205,7 @@ let neighbourhoodsWithoutNA = timeseries_data.dropNA('avg_u')
         geometry={neighbourhoods.column('$geometry')}
         stroke={'lightgray'}
         strokeWidth={0.5}
-        fill={neighbourhoodsWithoutNA.map('avg_u', myColorScale)}
-        keys={neighbourhoodsWithoutNA.column('avg_u')}
-        onMouseover={handleMouseover}
+        fill={timeseries_data.map('avg_u', myColorScale)}
       />
       </Section>
     </Graphic>
@@ -251,7 +213,7 @@ let neighbourhoodsWithoutNA = timeseries_data.dropNA('avg_u')
 </div>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300;1,700&display=swap" rel="stylesheet');
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300;1,700&display=swap" rel="stylesheet');
   
   .title-paragraph {
     font-family: 'Noto sans', sans-serif;
