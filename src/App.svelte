@@ -125,17 +125,17 @@
            Types of internet speed:
     </label>
                  
-    <select style="color: #0058FF; font-size: 20px; font-family: 'Noto Sans'; font-weight: 600;" 
-            bind:value={selectedSpeedtype} 
-            id="quarter-select">
               {#each speedTypes as quarter}
-                     <option 
-                      style="color:#000000; font-size: 20px; font-family: 'Noto Sans'; font-weight: 400;" 
-                      value={quarter}>
-                     {quarter}
-                     </option>
+          <label>         
+          <input
+            type="radio"
+            name="radioGroup"
+            bind:group={selectedSpeedtype}
+            value={quarter}
+          />
+          {quarter}
+         </label>
                {/each}
-	  </select>
   </div>
 <!-- SELECTION MENU -->
 <div class= "menu" >
@@ -149,6 +149,7 @@
             bind:value={selectedQuarter} 
             id="quarter-select">
               {#each time as quarter}
+        
                      <option 
                       style="color:#000000; font-size: 20px; font-family: 'Noto Sans'; font-weight: 400;" 
                       value={quarter}>
