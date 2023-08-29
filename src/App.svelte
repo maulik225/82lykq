@@ -18,6 +18,8 @@
   let selectedQuarter = '2022-04-01'
   let zoomIdentity = { x: 0, y: 0, kx: 1, ky: 1 }
   let blockReindexing = false;
+  let selectedSpeedtype = 'avg_d'
+  const speedTypes = ["avg_d","avg_u"]
 
   // data formatted from YYYY-MM-DD to Month YYYY
   $: quarter = new Date (selectedQuarter)
@@ -64,7 +66,7 @@
 
  $: speed_distribution = data_selectedQuarter
     .bin({ 
-      column: 'avg_d', 
+      column: selectedSpeedtype, 
       method: 'Manual', // method: customBinning,
       manualClasses: [0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200] , // numClasses: binRanges.length - 1
     })
@@ -91,7 +93,7 @@
   // TEXT DESCRIPTION: i want to show which countries are in which 'bin' in the text below the graph
   $: {
       if(selectedIndex != null){
-      selectedCountries = data_selectedQuarter.filter(row => row.avg_d >= speed_distribution.data().bins[selectedIndex][0] && row.avg_d <= speed_distribution.data().bins[selectedIndex][1]);
+      selectedCountries = data_selectedQuarter.filter(row => row.selectedSpeedtype >= speed_distribution.data().bins[selectedIndex][0] && row.selectedSpeedtype <= speed_distribution.data().bins[selectedIndex][1]);
      // textXPos = selectedIndex * 40 + 100;
      // textYPos = 450 - selectedCountries.column('name').length * 45;
       } else {
@@ -120,13 +122,13 @@
     <label  for="quarter-select"
             style="color:#000000; font-size: 20px; font-family: 'Noto Sans'; font-weight: 600;"
             >
-            Choose a internet speed:
+           Types of internet speed:
     </label>
                  
     <select style="color: #0058FF; font-size: 20px; font-family: 'Noto Sans'; font-weight: 600;" 
-            bind:value={selectedQuarter} 
+            bind:value={selectedSpeedtype} 
             id="quarter-select">
-              {#each time as quarter}
+              {#each speedTypes as quarter}
                      <option 
                       style="color:#000000; font-size: 20px; font-family: 'Noto Sans'; font-weight: 400;" 
                       value={quarter}>
@@ -225,7 +227,7 @@
         geometry={neighbourhoods.column('$geometry')}
         stroke={'lightgray'}
         strokeWidth={0.5}
-        fill={timeseries_data.map('avg_d', myColorScale)}
+        fill={timeseries_data.map(selectedSpeedtype, myColorScale)}
       />
       </Section>
     </Graphic>
