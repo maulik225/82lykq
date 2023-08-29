@@ -116,7 +116,25 @@
  
 </script>
 
-
+  <div class= "menu" >
+    <label  for="quarter-select"
+            style="color:#000000; font-size: 20px; font-family: 'Noto Sans'; font-weight: 600;"
+            >
+            Choose a internet speed:
+    </label>
+                 
+    <select style="color: #0058FF; font-size: 20px; font-family: 'Noto Sans'; font-weight: 600;" 
+            bind:value={selectedQuarter} 
+            id="quarter-select">
+              {#each time as quarter}
+                     <option 
+                      style="color:#000000; font-size: 20px; font-family: 'Noto Sans'; font-weight: 400;" 
+                      value={quarter}>
+                     {quarter}
+                     </option>
+               {/each}
+	  </select>
+  </div>
 <!-- SELECTION MENU -->
 <div class= "menu" >
     <label  for="quarter-select"
@@ -137,6 +155,7 @@
                {/each}
 	  </select>
   </div>
+
 
 <div class="graph">
   <div class="main-chart">
