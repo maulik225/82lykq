@@ -6,7 +6,7 @@
   import { schemePaired,schemeBlues } from 'd3-scale-chromatic'
   import { hoods } from './hoods.js'
   import { Eu } from './Eu.js'
-  import { Graphic, PolygonLayer, fitScales,Section,createZoomHandler,createPanHandler, RectangleLayer, PointLayer, Line, XAxis, YAxis } from '@snlab/florence'
+  import { Graphic, PolygonLayer,Grid, fitScales,Section,createZoomHandler,createPanHandler, RectangleLayer, PointLayer, Line, XAxis, YAxis } from '@snlab/florence'
   import DataContainer from '@snlab/florence-datacontainer'
 
   // constants
@@ -20,6 +20,7 @@
   let blockReindexing = false;
   let selectedSpeedtype = 'avg_d'
   const speedTypes = ["avg_d","avg_u"]
+  let columns = 2
 
   // data formatted from YYYY-MM-DD to Month YYYY
   $: quarter = new Date (selectedQuarter)
@@ -72,7 +73,9 @@
     })
     .summarise({ total_count: { id: 'count' }})
 
-
+  function selectQuarter(quarter){
+    selectedQuarter = quarter
+  }
   // BARS AND COLORS
       // colors of bars
       $: fillRectangles = speed_distribution.map('bins', bin => {
@@ -118,6 +121,11 @@
  
 </script>
 
+<main>
+    <header>
+        <h1>The geography of internet speeds</h1>
+    </header>
+
   <div class= "menu" >
     <label  for="quarter-select"
             style="color:#000000; font-size: 20px; font-family: 'Noto Sans'; font-weight: 600;"
@@ -143,7 +151,6 @@
             >
             Choose a quarter of a year to see internet speed:
     </label>
-                 
     <select style="color: #0058FF; font-size: 20px; font-family: 'Noto Sans'; font-weight: 600;" 
             bind:value={selectedQuarter} 
             id="quarter-select">
@@ -162,6 +169,7 @@
 <div class="graph">
   <div class="main-chart">
     <Graphic width={825} height={825}>
+    <Grid numberOfCells={4} {columns} let:cells>
      <Section
        x1={0.1}
         x2={0.9}
@@ -229,11 +237,11 @@
         fill={timeseries_data.map(selectedSpeedtype, myColorScale)}
       />
       </Section>
-      
+      </Grid>
     </Graphic>
   </div>
 </div>
-
+</main>
 <style>
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300;1,700&display=swap" rel="stylesheet');
   
@@ -273,5 +281,64 @@
     border: 4px double;
     border-color: #0058FF;
   }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font: normal 18px 'Open Sans', sans-serif;
+    background: #fafafa;
+    color: #333;
+}
+
+main {
+    min-height: 100vh;
+}
+
+header {
+    background: white;
+    box-shadow: 0 0 17px 10px rgba(0, 0, 0, 0.1);
+}
+    h1{
+        font: normal 4em 'Playfair Display SC', serif;
+        text-align:center;
+    }
+
+    nav {
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+        nav a {
+            flex-grow: 1;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+        }
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right:0;
+            height: 2px;
+            transform: scaleX(0);
+            background: #333;
+            transition: 0.7s transform cubic-bezier(0.06, 0.9, 0.28, 1);
+        }
+
+        nav a:hover::after{
+            transform: scaleX(1)
+        }
 
 </style>
